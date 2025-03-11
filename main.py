@@ -2,6 +2,7 @@ import os
 import sqlite3
 from scripts.yelp_scraper import run_scraper
 from scripts.database import create_database
+from scripts.data_cleaning import remove_duplicates
 
 # 获取数据库路径
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/yelp_restaurants.db")
@@ -23,6 +24,10 @@ def main():
     run_scraper()
 
     print("🎉 Yelp 数据爬取完成，数据已存入数据库！")
+
+    # 清洗数据
+    print("😯重复数据清理开始！")
+    remove_duplicates()
 
 if __name__ == "__main__":
     main()

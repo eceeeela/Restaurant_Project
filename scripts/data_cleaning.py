@@ -18,6 +18,3 @@ def remove_duplicates():
     conn.commit()
     conn.close()
     print("✅ 重复数据清理完成！")
-
-if __name__ == "__main__":
-    remove_duplicates()
