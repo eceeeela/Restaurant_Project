@@ -85,12 +85,16 @@ def run_scraper():
             print(f"📡 爬取 {city} - {category} 数据中...")
             restaurants = fetch_restaurants(city, category)
 
-            # 如果该类别的餐厅数量不足 150，则跳过
+            # 如果该类别的餐厅数量不足 150，仍然保存已有的数据
             if len(restaurants) < RECORDS_PER_CATEGORY:
                 print(
-                    f"⚠️ {city} - {category} 的餐厅不足 {RECORDS_PER_CATEGORY} 个（仅找到 {len(restaurants)} 个），跳过此类别。")
-                continue  # 直接跳到下一个类别
+                    f"⚠️ {city} - {category} 的餐厅不足 {RECORDS_PER_CATEGORY} 个（仅找到 {len(restaurants)} 个），保存已有数据并继续。")
+                if restaurants:  # 如果有数据，则保存
+                    save_to_database(restaurants, city)
+                    print(f"✅ {len(restaurants)} 条数据存入数据库")
+                continue  # 继续到下一个类别
 
+            # 如果餐厅数量足够，直接保存
             save_to_database(restaurants, city)
             print(f"✅ {len(restaurants)} 条数据存入数据库")
 
