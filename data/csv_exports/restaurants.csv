@@ -1,0 +1,990 @@
+restaurant_id,name,rating,price,review_count,categories,primary_category,category_id,location_id,latitude,longitude
+MON-514398,Au Pied de Cochon,4.2,$$$,1475,Canadian (New),Chinese,1,1,45.522169,-73.57445
+MON-57183,L'Express,4.3,$$$,733,French,French,2,2,45.52032,-73.57437
+MON-79374,La Banquise,4.0,$$,2381,Poutineries,Chinese,1,3,45.525354,-73.574769
+MON-867256,Bouillon Bilk,4.6,$$$,528,Modern European,Chinese,1,4,45.51010242374259,-73.56343199999999
+MON-543673,Ichigo Ichie,4.5,$$,125,"Japanese, Pubs",Japanese,3,5,45.52128,-73.57842
+MON-759662,Deville Dinerbar,4.0,$$,649,Diners,Chinese,1,6,45.499686,-73.574147
+MON-660883,Le Majestique,4.4,$$,219,"Bars, Canadian (New)",Chinese,1,7,45.5175436,-73.5802618
+MON-424130,Modavie,4.1,$$$,1027,"French, Mediterranean",French,2,8,45.50548,-73.55396
+MON-203367,Burger Bar Crescent,4.3,$$,588,"Burgers, American, Poutineries",Chinese,1,9,45.498066,-73.577052
+MON-261576,Restaurant Bonaparte,4.5,$$$,436,French,French,2,10,45.503344,-73.556115
+MON-80317,Les Deux Gamins,4.2,$$,635,"French, Wine Bars, Cocktail Bars",French,2,11,45.51551334829121,-73.57096217359745
+MON-227628,Poutineville,4.3,$$,649,Poutineries,Chinese,1,12,45.523205,-73.5613
+MON-398955,L'Avenue,4.5,$$,1326,Breakfast & Brunch,Chinese,1,13,45.5266781712886,-73.5802391312828
+MON-5503,Monarque,4.5,$$$,229,Brasseries,Chinese,1,14,45.50158,-73.55962
+MON-134185,Reuben's Deli & Steakhouse,4.0,$$,730,"Delis, Sandwiches, Steakhouses",Chinese,1,15,45.49959,-73.57294
+MON-939562,Ma Poule Mouillée,4.4,$$,667,"Portuguese, Chicken Shop",Chinese,1,16,45.5251692,-73.5752667883391
+MON-745778,Schwartz's,4.1,$$,3423,"Delis, Sandwiches",Chinese,1,17,45.516353,-73.577642
+MON-635579,Damas,4.7,$$$,475,Syrian,Chinese,1,18,45.52258,-73.61344
+MON-53090,Ferreira Café,4.0,$$$,281,"Portuguese, Seafood",Chinese,1,19,45.50032,-73.57415
+MON-703779,Ibéricos,4.4,$$,86,"Spanish, Tapas Bars",Spanish,4,20,45.5239019496467,-73.5824299603701
+MON-52414,Kazu,4.3,$$,750,Japanese,Japanese,3,21,45.492867,-73.580078
+MON-347832,Barroco,4.3,$$$,329,"Spanish, French, Cocktail Bars",Spanish,4,23,45.50138,-73.55592
+MON-795487,Cadet,4.5,$$$,126,"Bars, Canadian (New)",Chinese,1,24,45.5103,-73.564418
+MON-395989,Île Flottante,4.5,$$$,143,French,French,2,25,45.52352,-73.60079
+MON-645850,Le Filet,4.4,$$$,118,Seafood,Chinese,1,26,45.5224024,-73.5844894
+MON-197534,Joe Beef,4.3,$$$,844,"Seafood, Steakhouses",Chinese,1,27,45.483062,-73.575308
+MON-657747,Dunn's,3.9,$$,365,"Poutineries, Burgers, Pizza",Chinese,1,28,45.500616619166614,-73.57158873558198
+MON-731338,Arepera,4.4,$$,346,Venezuelan,Chinese,1,29,45.514992,-73.572048
+MON-274420,Jérôme Ferrer Europea,4.3,$$$$,397,French,French,2,30,45.4964748,-73.5717854
+MON-233594,Leméac,4.2,$$$,304,French,French,2,31,45.51832,-73.59735
+MON-305390,Escondite,4.2,$$,267,"Bars, Mexican",Mexican,5,32,45.502978,-73.567959
+MON-759962,Bar George,4.3,$$,281,"British, Breakfast & Brunch, Bars",Chinese,1,33,45.49914524060438,-73.575678
+MON-647432,Toqué,4.2,$$$$,308,Canadian (New),Chinese,1,34,45.5029475,-73.5612041
+MON-692456,Gyu-Kaku Japanese BBQ,4.4,$$$,228,"Japanese, Barbeque, Asian Fusion",Japanese,3,35,45.49681,-73.5746
+MON-516730,Il Focolaio,4.3,$$,518,"Pizza, Italian",Italian,6,36,45.50407,-73.56807
+MON-492829,BEVO Bar + Pizzeria,4.0,$$,424,"Bars, Pizza, Italian",Italian,6,37,45.50696,-73.55324
+MON-202932,Onoir,4.3,$$$,130,"Seafood, International, Cocktail Bars",Chinese,1,38,45.515113,-73.571405
+MON-453896,Saint Sushi Plateau,4.5,$$,384,"Sushi Bars, Japanese",Japanese,3,39,45.521106,-73.575346
+MON-496482,Yokato Yokabai,4.2,$$,522,Ramen,Chinese,1,40,45.5212206164378,-73.578518757916
+MON-909234,Estiatorio Milos,4.2,$$$$,184,Greek,Chinese,1,41,45.52169101888991,-73.60049302269982
+MON-166244,Biirū,4.0,$$,204,"Japanese, Bars",Japanese,3,42,45.5049159,-73.5686505
+MON-709211,Joséphine,4.4,$$,35,Seafood,Chinese,1,43,45.52086,-73.57556
+MON-34000,Jatoba,4.0,$$$,150,Japanese,Japanese,3,44,45.503313,-73.567344
+MON-902816,The Keg Steakhouse + Bar,4.2,$$$,358,"Steakhouses, Bars, Seafood",Chinese,1,45,45.5007523,-73.5694969
+MON-601925,L'Orignal,4.2,$$$,304,Canadian (New),Chinese,1,46,45.50275,-73.55798
+MON-94625,Tiradito,4.0,$$$,162,"Peruvian, Cocktail Bars, Asian Fusion",Chinese,1,47,45.50434,-73.56348
+MON-880791,Lawrence,4.3,$$,240,Modern European,Chinese,1,48,45.524143,-73.5946503
+MON-902799,Maison Boulud,4.2,$$$$,204,"French, Breakfast & Brunch",French,2,49,45.49985,-73.5779699
+MON-881489,NYK'S,4.1,$$,216,"Pubs, Burgers, Tapas Bars",Chinese,1,50,45.5060324,-73.566685
+MON-682218,Beatrice,4.1,$$$,98,Italian,Italian,6,51,45.49696960899045,-73.5809371404922
+MON-732547,The Keg Steakhouse + Bar - Montreal,4.2,$$$,255,"Steakhouses, Bars, Seafood",Chinese,1,52,45.5060875776279,-73.55361568537528
+MON-387894,Patati Patata,4.2,$,376,"Burgers, Poutineries",Chinese,1,53,45.51814,-73.581503
+MON-298052,Garde Manger,4.2,$$$,473,Seafood,Chinese,1,55,45.50273,-73.5557
+MON-166912,Lola Rosa,4.3,$$,312,Vegetarian,Chinese,1,56,45.5073247805376,-73.5757481897374
+MON-238223,Le Club Chasse et Pêche,4.6,$$$$,241,"French, Canadian (New)",French,2,57,45.50893,-73.55241
+MON-633271,Imadake,4.1,$$,302,"Japanese, Bars",Japanese,3,58,45.488882667853325,-73.5845826711644
+MON-521968,Holder,4.2,$$$,399,"French, Bars",French,2,59,45.50047,-73.55734
+MON-964493,Mae Sri,4.0,$$,101,Thai,Chinese,1,60,45.51039,-73.57262
+MON-479319,N° 900,4.3,$$,57,Pizza,Chinese,1,61,45.500436,-73.558316
+MON-975332,Queen Sheba,4.5,$$,72,Ethiopian,Chinese,1,62,45.51731,-73.58984
+MON-589553,La Capital Tacos,4.1,$$,346,Mexican,Mexican,5,63,45.50838,-73.561
+MON-343589,La Fabrique,4.2,$$$,119,French,French,2,64,45.51811,-73.56943
+MON-840124,Chez Victoire,4.1,$$$,77,"French, Wine Bars",French,2,65,45.53109931841519,-73.57652291717903
+MON-230785,Le Mousso,4.5,$$$$,58,Canadian (New),Chinese,1,66,45.52006,-73.56322
+MON-455860,KINTON RAMEN BISHOP,3.9,$$,270,Ramen,Chinese,1,67,45.49601,-73.57487
+MON-900095,Réservoir,4.1,$$,156,"Breakfast & Brunch, Brasseries",Chinese,1,68,45.517237,-73.57932
+MON-648325,Le Taj,3.9,$$,324,Indian,Chinese,1,69,45.50087,-73.57643
+MON-618907,L'Auberge Saint-Gabriel,4.1,$$$,97,"Venues & Event Spaces, Canadian (New)",Chinese,1,70,45.50642,-73.55418
+MON-359487,Hoogan et Beaufort,4.5,$$$,91,"Canadian (New), Breweries",Chinese,1,71,45.5421766124662,-73.5634769072506
+MON-84773,MajesThé,4.1,$$,175,"Asian Fusion, Bubble Tea, Taiwanese",Chinese,1,72,45.50484,-73.572759
+MON-489381,Ristorante Quattro,4.1,$$$,146,Italian,Italian,6,73,45.50587,-73.556052
+MON-493984,Le Serpent,4.4,$$$,175,"Italian, Brasseries",Italian,6,74,45.49756372609497,-73.55686379820928
+MON-625376,Pincette,4.4,$$$,66,"Seafood, Wine Bars, Cocktail Bars",Chinese,1,75,45.5064,-73.55293
+MON-689571,Gus,4.5,$$$,98,"Seafood, Steakhouses",Chinese,1,76,45.5306384,-73.6080747
+MON-770858,larrys,4.3,$$,118,"Bars, Breakfast & Brunch",Chinese,1,77,45.52407441775497,-73.5946929842611
+MON-690197,Jellyfish Crudo + Charbon,4.3,$$$,98,Modern European,Chinese,1,78,45.4989262422404,-73.5543499141932
+MON-722046,Eggspectation - Complexe Desjardins,4.0,$$,479,"Breakfast & Brunch, Burgers, American",Chinese,1,79,45.50747533524907,-73.5656675449969
+MON-502888,Nouilles de Lan Zhou,4.3,$$,761,"Chinese, Noodles",Chinese,1,80,45.5077814027869,-73.559594
+MON-580052,Sparrow,4.0,$$,213,"Breakfast & Brunch, Cocktail Bars",Chinese,1,81,45.52453,-73.59662
+MON-326395,Wienstein & Gavino's,3.8,$$,293,"Italian, Wine Bars",Italian,6,82,45.49751251005118,-73.576754
+MON-388339,L'Usine de Spaghetti,3.9,$$,210,Italian,Italian,6,83,45.5081154,-73.5523441
+MON-123693,KYO,4.0,$$,302,"Japanese, Sushi Bars",Japanese,3,84,45.50541,-73.55761
+MON-996861,O'Thym,4.4,$$$,188,French,French,2,85,45.518377,-73.558126
+MON-264162,Les Pyrénées,4.1,$$$,187,Spanish,Spanish,4,86,45.50127,-73.55608
+MON-653572,Le Pois Penché,3.8,$$$,189,Brasseries,Chinese,1,87,45.499511,-73.576242
+MON-278742,Aux Vivres Plateau,4.2,$$,429,Vegan,Chinese,1,88,45.5212392,-73.5883014
+MON-411419,Nora Gray,4.1,$$$,122,Italian,Italian,6,89,45.49303,-73.568495
+MON-579981,Gibbys,4.2,$$$$,564,"Seafood, Steakhouses",Chinese,1,90,45.50141,-73.55475
+MON-111379,Stash Café,4.4,$$,414,Polish,Chinese,1,91,45.50260615676877,-73.55518407260888
+MON-139709,Pullman,4.1,$$,207,"Tapas/Small Plates, Wine Bars",Chinese,1,92,45.50845,-73.5721
+MON-388294,Sammi & Soupe Dumpling,3.9,$$,238,"Chinese, Dumplings, Asian Fusion",Chinese,1,93,45.492696,-73.580787
+MON-472398,Vices et Versa,4.2,$$,152,"Poutineries, Brewpubs, Burgers",Chinese,1,94,45.5313378,-73.610497
+MON-297731,Pizzeria Dei Compari,4.1,$$,96,Pizza,Chinese,1,97,45.515,-73.56375
+MON-429548,Chez Delmo,4.3,$$$,111,"Seafood, French",French,2,98,45.502845,-73.558353
+MON-227765,Taza Flores,4.3,$$,55,"Tapas Bars, Modern European",Chinese,1,99,45.52183,-73.60072
+MON-257543,Le Colonel Moutarde,4.5,$$,27,Canadian (New),Chinese,1,100,45.52324,-73.5819
+MON-309848,Bistro Tôt ou Tard,4.2,$$,84,"French, Breakfast & Brunch",French,2,101,45.52153,-73.56647
+MON-923851,Les Torchés,4.1,$$,37,"Pubs, Tapas/Small Plates, Cocktail Bars",Chinese,1,102,45.5208508,-73.58559293743438
+MON-776472,Jun I,4.1,$$$,97,"Sushi Bars, Japanese",Japanese,3,104,45.521119,-73.594311
+MON-581171,Romados,4.2,$$,564,"Barbeque, Bakeries, Portuguese",Chinese,1,105,45.519261587336665,-73.58070295798589
+MON-613649,Jardin Nelson,4.1,$$,719,"Creperies, Jazz & Blues",Chinese,1,106,45.5079539,-73.55262223588781
+MON-194610,Caifan Tacos Bar,4.6,$$,22,Mexican,Mexican,5,107,45.5241886,-73.58375260000001
+MON-443449,Ta Pies,4.5,$,137,"Australian, Comfort Food, Desserts",Chinese,1,108,45.51688,-73.590151
+MON-771627,Le Vin Papillon,4.3,$$$,159,"Canadian (New), Wine Bars",Chinese,1,109,45.48277,-73.5754852
+MON-275144,Chez Chili,4.1,$$,151,Chinese,Chinese,1,110,45.5076456,-73.560384
+MON-481108,Sushi Momo Végétalien,4.6,$$,112,"Japanese, Sushi Bars, Vegan",Japanese,3,111,45.51811,-73.56943
+MON-523393,Bootlegger l'Authentique,4.6,$$,70,"Cocktail Bars, Jazz & Blues, Whiskey Bars",Chinese,1,112,45.51323,-73.57058
+MON-144505,Olive + Gourmando,4.3,$$,1739,"Sandwiches, Breakfast & Brunch, Salad",Chinese,1,113,45.501197,-73.5564745926598
+MON-873463,Crew Collective & Café,4.3,$$,442,"Shared Office Spaces, Venues & Event Spaces, Cafes",Chinese,1,114,45.502323,-73.559316
+MON-639731,Restaurant Alep,4.6,$$$,49,"Middle Eastern, Syrian",Chinese,1,115,45.5364999,-73.61646
+MON-114510,La Habanera,4.0,$$,88,Cuban,Chinese,1,117,45.50311,-73.56822
+MON-14082,Impasto,4.2,$$$,89,Italian,Italian,6,119,45.53314,-73.61323
+MON-265345,Cloakroom Bar,4.7,$$$,221,Cocktail Bars,Chinese,1,120,45.49944,-73.57786
+MON-199918,Au Kouing-Amann,4.7,$,515,Bakeries,Chinese,1,121,45.52314063890032,-73.58349412679672
+MON-382640,LOV McGill,4.0,$$,292,"Vegan, Vegetarian, Breakfast & Brunch",Chinese,1,122,45.5005534,-73.5590512
+MON-970636,Gokudo,4.5,$$,70,"Cocktail Bars, Japanese, Speakeasies",Japanese,3,123,45.50303,-73.56838
+MON-541901,KazaMaza,4.0,$$,145,Middle Eastern,Chinese,1,124,45.517858,-73.591312
+MON-941747,Le 4e Mur,4.6,$$,107,Speakeasies,Chinese,1,125,45.5161779,-73.5657819
+MON-407464,Buvette Chez Simone,4.3,$$,124,"Wine Bars, Tapas/Small Plates",Chinese,1,126,45.51888,-73.59341
+MON-159123,Pizzeria Bros,4.3,$$,139,Pizza,Chinese,1,128,45.5058610094765,-73.5559096025568
+MON-740695,Casa Minhota,4.0,$$,50,Portuguese,Chinese,1,129,45.51664,-73.57791
+MON-261235,Le Virunga,4.7,$$$,44,African,Chinese,1,130,45.52409,-73.57633
+MON-406656,Le Red Tiger,3.9,$$,144,"Vietnamese, Pubs, Cocktail Bars",Vietnamese,8,131,45.519202,-73.557836
+MON-800679,Le Speakeasy,4.4,$$$,58,International,Chinese,1,132,45.49946,-73.5558
+MON-389062,Le Passé Composé,4.4,$$$,411,"Breakfast & Brunch, Bistros",Chinese,1,133,45.49843,-73.55785
+MON-42375,Café Parvis,4.1,$$,237,"Pizza, Cafes, Bars",Chinese,1,134,45.505822,-73.569301
+MON-845278,Maestro SVP,3.8,$$$,129,"Seafood, Live/Raw Food",Chinese,1,135,45.514196,-73.5729452
+MON-351185,Darbar,4.1,$$,331,Indian,Chinese,1,136,45.51174,-73.56731
+MON-5445,Boswell,4.3,$$,46,"Pubs, Brasseries, Breweries",Chinese,1,138,45.5384,-73.56974
+MON-778704,La Distillerie No.1,4.5,$$,321,Cocktail Bars,Chinese,1,140,45.514822,-73.565401
+MON-655470,Lattuca Barbecue,4.4,$$,196,Barbeque,Chinese,1,141,45.50499,-73.5538
+MON-504332,Restaurant Atma,3.9,$$,80,Indian,Chinese,1,142,45.5166568,-73.579113
+MON-304632,Sansotei,4.4,$$,58,"Beer, Wine & Spirits, Ramen",Chinese,1,143,45.50561,-73.56712
+MON-644372,Hà,3.9,$$,101,"Vietnamese, Laotian",Vietnamese,8,144,45.51778,-73.58888
+MON-605078,La Raclette,4.4,$$$,58,"Fondue, French",French,2,146,45.5295503804062,-73.5827571103087
+MON-97034,St-Viateur Bagel & Café,4.0,$$,500,"Bagels, Cafes",Chinese,1,147,45.528427,-73.57911
+MON-444157,Mythos Ouzeri,4.2,$$$,60,Greek,Chinese,1,148,45.52088,-73.59997
+MON-399859,Jano Grillades,4.0,$$,90,"Portuguese, Barbeque",Chinese,1,149,45.51623,-73.57725
+MON-338584,Brit & Chips,4.2,$$,323,"British, Fish & Chips",Chinese,1,151,45.50074,-73.55806
+MON-991941,Wolf & Workman,4.5,$$,169,Pubs,Chinese,1,152,45.5037576,-73.55491567062386
+MON-120153,Pizzeria Magpie,3.9,$$,99,Pizza,Chinese,1,153,45.52461,-73.59544
+MON-965754,Foxy,4.1,$$$,147,Canadian (New),Chinese,1,154,45.489415,-73.567583
+MON-108382,Boustan,4.1,$,476,"Middle Eastern, Mediterranean",Chinese,1,155,45.49792,-73.57789
+MON-886452,Singh's,4.0,$$,112,Indian,Chinese,1,156,45.51456,-73.57461
+MON-709905,Plein Sud,4.5,$$,63,"French, Wine Bars, Tapas/Small Plates",French,2,158,45.5354763,-73.5807972
+MON-148982,Ye Olde Orchard,4.0,$$,56,"Barbeque, Irish Pub",Chinese,1,159,45.51343,-73.5726
+MON-871583,L’Entrepôt - Mont-Royal,3.8,$,146,"Bars, Comfort Food, American",Chinese,1,160,45.527648,-73.579729
+MON-23444,Isle de Garde,4.2,$$,69,Brasseries,Chinese,1,161,45.53756,-73.60205
+MON-690162,Vieux-Port Steakhouse,3.6,$$$,336,"Venues & Event Spaces, Steakhouses",Chinese,1,163,45.50617298481,-73.553588470931
+MON-670992,Chez José Café,4.2,$$,154,"Breakfast & Brunch, Sandwiches, Portuguese",Chinese,1,164,45.51869,-73.57799
+MON-525545,L'Amère à Boire,4.0,$$,69,"Tapas Bars, Brewpubs",Chinese,1,165,45.51642,-73.566042
+MON-323062,Saiko Bistrot Izakaya,4.1,$$$,91,"Japanese, Sushi Bars",Japanese,3,167,45.5023943,-73.564791
+MON-681842,Breizh Café,4.5,$$,104,"Creperies, Breakfast & Brunch",Chinese,1,168,45.5167034,-73.5787906
+MON-557283,Maison Saint-Paul,4.2,$$$,105,"Champagne Bars, Seafood, Cocktail Bars",Chinese,1,169,45.509204489716616,-73.5518333
+MON-706921,Ryú,3.9,$$,105,"Sushi Bars, Japanese",Japanese,3,170,45.500541,-73.574323
+MON-746311,Helena,4.2,$$$,103,"Portuguese, Seafood",Chinese,1,172,45.5002799,-73.55837
+MON-232080,Nil Bleu,4.0,$$,158,"Ethiopian, Vegan",Chinese,1,173,45.51834,-73.57125
+MON-195518,Le Rouge Gorge,4.3,$$,35,"Wine Bars, Tapas/Small Plates",Chinese,1,175,45.5291117540899,-73.5779781639576
+MON-382911,Shawarmaz,4.1,$,189,"Middle Eastern, Mediterranean",Chinese,1,176,45.4973876,-73.57524787359317
+MON-470178,Gyubee Japanese Grill - Montreal,4.5,$$$,29,"Japanese, Barbeque",Japanese,3,177,45.4931297,-73.57967107576893
+MON-645162,Bis,4.0,$$$$,75,Italian,Italian,6,178,45.49779,-73.57424
+MON-565332,Montréal Plaza,4.5,$$$$,118,Canadian (New),Chinese,1,179,45.534836,-73.600521
+MON-864566,Nos Thés,3.8,$$,174,"Taiwanese, Tea Rooms",Chinese,1,180,45.494956,-73.57826
+MON-450105,Monopole,4.8,$$,22,"Wine Bars, Burgers, Sandwiches",Chinese,1,181,45.49668,-73.55524
+MON-169526,Wilensky,4.3,$,145,Delis,Chinese,1,182,45.52331,-73.59472
+MON-188665,Boca Iberica,4.4,$$,21,Iberian,Chinese,1,183,45.5176519,-73.5818049
+MON-375664,Porto Mar,4.3,$$$,43,"Portuguese, Seafood, Steakhouses",Chinese,1,185,45.50241,-73.555
+MON-428612,Fabergé,4.0,$$,431,"Breakfast & Brunch, Creperies",Chinese,1,186,45.52351,-73.594997
+MON-158153,Cuisine AuntDai,4.3,$$,90,Chinese,Chinese,1,187,45.49425,-73.58048
+MON-595256,Liverpool House,4.2,$$$,346,French,French,2,188,45.4828859,-73.5752899
+MON-113349,Le Central,4.5,$$,46,"Desserts, Food Court, Poutineries",Chinese,1,189,45.50930935934862,-73.56292127116336
+MON-133280,Chez Suzette,3.7,$$,526,"Creperies, Desserts, Fondue",Chinese,1,190,45.505754,-73.553824
+MON-389648,Foiegwa,4.2,$$,274,"French, Breakfast & Brunch",French,2,191,45.48127,-73.57831
+MON-558956,Portus360,3.8,$$$,84,Portuguese,Chinese,1,192,45.49997,-73.56242
+MON-97217,La Finca,4.6,$$,192,"Breakfast & Brunch, Venues & Event Spaces, Cafes",Chinese,1,194,45.5043279884477,-73.5628843680024
+MON-744517,Kitchen Galerie,4.4,$$$,36,French,French,2,195,45.535631,-73.617056
+MON-553745,C'ChoColat,4.2,$$,269,"Chocolatiers & Shops, Creperies, Sandwiches",Chinese,1,196,45.49622,-73.57531
+MON-997910,Brasserie 701,3.5,$$,265,Brasseries,Chinese,1,197,45.50541,-73.55761
+MON-978036,Renoir,4.1,$$$,67,"French, Breakfast & Brunch",French,2,198,45.501448,-73.57731980427067
+MON-298115,La Khaïma,3.9,$$,101,"Moroccan, Egyptian",Chinese,1,199,45.522006,-73.595967
+NEW-446359,Up Thai,4.4,$$,3295,Thai,Chinese,1,201,40.7698275926665,-73.9576330868512
+NEW-6566,Anytime Kitchen ,4.6,$$,3152,"Korean, Tapas/Small Plates, Barbeque",Korean,7,202,40.74776270790539,-73.9867793576711
+NEW-946742,Daniel,4.5,$$$$,1965,"French, Bars, New American",French,2,203,40.766742,-73.967679
+NEW-352457,LoveMama,4.4,$$,6949,"Thai, Malaysian, Vietnamese",Vietnamese,8,204,40.730387,-73.986093
+NEW-696573,Boucherie Union Square,4.4,$$$,1736,"Steakhouses, French, Cocktail Bars",French,2,205,40.73725824850519,-73.9882252705524
+NEW-268879,Da Andrea - Greenwich Village,4.4,$$,2504,"Italian, Mediterranean, Breakfast & Brunch",Italian,6,206,40.736287,-73.995865
+NEW-478760,Her Name Is Han,4.3,$$,2129,"Korean, Breakfast & Brunch",Korean,7,207,40.74625007940397,-73.98476227403484
+NEW-987584,Izakaya MEW,4.3,$$,3147,"Tapas Bars, Sushi Bars, Izakaya",Chinese,1,208,40.750148,-73.9863203465939
+NEW-900864,Shuka,4.3,$$,1157,"Mediterranean, Cocktail Bars, Breakfast & Brunch",Chinese,1,209,40.72707,-74.00283
+NEW-869614,Joe's Shanghai,3.8,$$,7528,"Shanghainese, Seafood, Noodles",Chinese,1,210,40.7156608,-73.9967012
+NEW-415025,Jean-Georges,4.2,$$$$,2045,"French, New American, Asian Fusion",French,2,211,40.7691122743293,-73.9814290717583
+NEW-777381,Carbone,4.0,$$$$,1979,Italian,Italian,6,212,40.72800126711089,-74.00024274442806
+NEW-916693,PLANTA Queen Nomad,4.3,$$,842,"Vegetarian, Sushi Bars, Asian Fusion",Chinese,1,213,40.744427,-73.988302
+NEW-496322,Katz's Delicatessen,4.1,$$,16310,"Delis, Sandwiches, Soup",Chinese,1,214,40.72221127798768,-73.98747940414935
+NEW-857868,Antidote,4.6,$$,561,"Cocktail Bars, Dim Sum, Szechuan",Chinese,1,215,40.714186,-73.965493
+NEW-801682,Very Fresh Noodles,4.4,$$,1671,"Taiwanese, Chinese, Noodles",Chinese,1,216,40.74207,-74.00565
+NEW-384048,Lemongrass Brooklyn,4.3,$$,1452,"Thai, Asian Fusion, Noodles",Chinese,1,217,40.688684,-73.993137
+NEW-359590,Atoboy,4.3,$$$$,713,"Korean, Tapas/Small Plates, Asian Fusion",Korean,7,218,40.74364,-73.98456
+NEW-295108,Double Chicken Please,4.4,$$$,802,"Cocktail Bars, Burgers, Sandwiches",Chinese,1,219,40.719584,-73.990486
+NEW-329022,Chalong,4.6,$$$,532,Thai,Chinese,1,220,40.763924,-73.988883
+NEW-500634,Da Gennaro,4.1,$$$,1517,"Italian, Pizza, Gluten-Free",Italian,6,221,40.71832,-73.99794
+NEW-756171,Nowon East Village,4.3,$$$,436,"Korean, New American, Gastropubs",Korean,7,222,40.7253574,-73.9833014
+NEW-108997,Top Thai Greenwich,4.4,$$,2111,"Thai, Cocktail Bars, Halal",Chinese,1,223,40.729771,-73.999392
+NEW-764465,Sunday In Brooklyn,4.0,$$,1489,"New American, Breakfast & Brunch, Cocktail Bars",Chinese,1,224,40.714181240175115,-73.96532809508915
+NEW-54298,Forsythia,4.3,$$$$,194,Italian,Italian,6,225,40.7225353,-73.992492
+NEW-338910,Noreetuh,4.3,$$$,661,"New American, Hawaiian",Chinese,1,226,40.727343847368914,-73.98528661101456
+NEW-644320,Barn Joo 35,4.2,$$,2515,"Korean, Gastropubs, Tapas/Small Plates",Korean,7,227,40.74964,-73.98582
+NEW-809216,Mom's Kitchen & Bar,4.4,$$,2097,"Comfort Food, Breakfast & Brunch, Bars",Chinese,1,228,40.76247,-73.9901
+NEW-282790,Calle Dao - Bryant Park,4.2,$$,2069,"Cuban, Cocktail Bars, Sandwiches",Chinese,1,229,40.752167,-73.98422161374535
+NEW-553848,DeStefano's Steakhouse,4.6,$$$,1115,Steakhouses,Chinese,1,230,40.71462413989243,-73.9497399
+NEW-91515,Hanoi House,4.3,$$,817,Vietnamese,Vietnamese,8,231,40.727066,-73.983505
+NEW-881033,Dante,4.0,$$,741,"Cocktail Bars, Italian, Breakfast & Brunch",Italian,6,232,40.7288561,-74.00177181257429
+NEW-915072,Chow House 德悦轩,4.4,$$,752,"Szechuan, Noodles, Soup",Chinese,1,233,40.72908,-74.00078
+NEW-949563,La Lanterna Di Vittorio,4.2,$$,1768,"Italian, Cafes, Pizza",Italian,6,234,40.73069,-74.00015
+NEW-743033,NY Pizza Suprema,4.3,$$,2746,Pizza,Chinese,1,235,40.7502059936523,-73.9953231811523
+NEW-559500,The Halal Guys,4.2,$$,10482,"Middle Eastern, Halal, Fast Food",Chinese,1,236,40.761861,-73.979306
+NEW-506462,LOVE Korean BBQ,4.4,$$$,891,"Korean, Barbeque",Korean,7,237,40.747118,-73.985056
+NEW-494291,Pranakhon Thai Restaurant,4.5,$$,580,"Thai, Salad, Noodles",Chinese,1,238,40.73369,-73.99316
+NEW-85876,Sagaponack,4.6,$$$,327,"Bars, Seafood, Asian Fusion",Chinese,1,240,40.741019,-73.990692
+NEW-852712,Boqueria Soho,4.1,$$$,1302,"Spanish, Tapas Bars, Tapas/Small Plates",Spanish,4,241,40.7249227818105,-74.00215536627918
+NEW-541743,4 Charles Prime Rib,4.6,$$$$,527,"Steakhouses, Seafood, Cocktail Bars",Chinese,1,242,40.73513,-74.00065
+NEW-288534,Cafe Mogador,4.4,$$$,1525,"Moroccan, Breakfast & Brunch, Mediterranean",Chinese,1,243,40.719747,-73.959993
+NEW-715562,Kimika,3.9,$$$,411,"Italian, Cocktail Bars, Asian Fusion",Italian,6,244,40.7206118,-73.99520866651855
+NEW-209582,1803 Nyc,4.2,$$,864,"Cajun/Creole, Seafood, Bars",Chinese,1,245,40.715498,-74.007178
+NEW-108894,Jiang Nan,4.4,$$$,230,"Chinese, Cocktail Bars, Caterers",Chinese,1,246,40.7175581,-73.99498
+NEW-166987,Xixa,4.4,$$$,713,"Mexican, Tapas/Small Plates, Cocktail Bars",Mexican,5,247,40.7104,-73.95854
+NEW-632494,Lobster Place,4.2,$$,1578,"Seafood Markets, Seafood",Chinese,1,248,40.7427413905213,-74.0060118057704
+NEW-251943,Le Pavillon,4.2,$$$$,248,"French, New American",French,2,249,40.75284533722524,-73.97848111104443
+NEW-762205,Hold Fast Kitchen & Spirits,4.7,$$,663,"New American, Cocktail Bars, Breakfast & Brunch",Chinese,1,250,40.76064,-73.99023
+NEW-138707,Osteria Delbianco,4.6,$$$,267,Italian,Italian,6,251,40.7573689002,-73.9764462233
+NEW-36794,Lombardi's Pizza,3.8,$$,6753,Pizza,Chinese,1,252,40.7215934960083,-73.9955956044561
+NEW-260316,Oscar Wilde,3.8,$$$,1532,"Cocktail Bars, New American, Gastropubs",Chinese,1,253,40.74514,-73.9900399
+NEW-489993,Barolo East,4.5,$$$,317,Italian,Italian,6,254,40.75481,-73.97059
+NEW-118085,Hao Noodle Chelsea,4.3,$$,696,"Shanghainese, Dim Sum, Szechuan",Chinese,1,255,40.7408,-74.00429
+NEW-584541,Hunt & Fish Club,3.9,$$$,739,"New American, Steakhouses, Cocktail Bars",Chinese,1,256,40.75673,-73.9843
+NEW-280882,Bad Roman,4.0,$$$$,772,"New American, Italian",Italian,6,258,40.768494,-73.983072
+NEW-844881,Loring Place,4.3,$$$,602,"Desserts, Tapas/Small Plates, Pizza",Chinese,1,259,40.73293764919451,-73.99758608256435
+NEW-667759,Malii Gramercy,4.5,$$,218,Thai,Chinese,1,260,40.73767,-73.98128
+NEW-692988,Tofu Tofu,4.6,$$,587,"Korean, Juice Bars & Smoothies, Barbeque",Korean,7,261,40.7176299520983,-73.9954301342368
+NEW-146402,Bowery Meat Company,4.1,$$$$,683,"Steakhouses, Wine Bars",Chinese,1,262,40.72457207599233,-73.99183956085875
+NEW-465243,Da Claudio,4.3,$$$,682,"Italian, Cocktail Bars, Seafood",Italian,6,263,40.71087,-74.00753
+NEW-684183,Medusa The Greek,4.4,$$,319,"Greek, Mediterranean",Chinese,1,264,40.67857,-73.97885
+NEW-550688,Supermoon Bakehouse,4.3,$$,1107,"Bakeries, Desserts, Sandwiches",Chinese,1,265,40.719856452169005,-73.98723927387086
+NEW-252049,St Tropez West Village,4.3,$$$,310,"Wine Bars, French, Tapas/Small Plates",French,2,266,40.737054,-74.00384677146978
+NEW-370631,Benjamin Steakhouse Prime,4.4,$$$$,551,"Seafood, Steakhouses, Cocktail Bars",Chinese,1,267,40.75145573088978,-73.97965075275545
+NEW-112181,Shanghai 21,4.1,$$,2094,Shanghainese,Chinese,1,268,40.71441,-73.99902
+NEW-895299,Russ & Daughters,4.3,$$,2961,"Bagels, Smokehouse, Bakeries",Chinese,1,269,40.722589,-73.9882828294139
+NEW-361104,Saigon Shack,4.1,$$,2803,"Vietnamese, Sandwiches, Coffee & Tea",Vietnamese,8,270,40.72969,-74.000629
+NEW-170923,La Marchande,4.3,$$$,66,"French, Brasseries",French,2,271,40.705286,-74.007803
+NEW-289201,Mastro's Steakhouse,4.2,$$$$,1018,Steakhouses,Chinese,1,272,40.761091681735635,-73.9801313166685
+NEW-21737,Montesacro Pinseria Brooklyn,4.4,$$,311,"Italian, Pizza, Bars",Italian,6,273,40.71338,-73.95136
+NEW-4497,Vite Vinosteria,4.3,$$,732,"Italian, Wine Bars",Italian,6,274,40.762936342378225,-73.92116617379394
+NEW-181131,Krupa Grocery,4.4,$$,429,"Bars, Coffee & Tea, New American",Chinese,1,276,40.6598242,-73.980508
+NEW-180582,Da Long Yi Hot Pot,4.4,$$$,684,"Hot Pot, Szechuan",Chinese,1,277,40.716613,-73.996619
+NEW-358126,Hey Yuet,4.4,$$,295,"Dim Sum, Cantonese",Chinese,1,278,40.747241,-73.996441
+NEW-277861,Pio Pio 8,4.0,$$,2691,"Latin American, Peruvian",Chinese,1,279,40.760506289326,-73.994564488901
+NEW-682694,Veselka,4.0,$$,3325,Ukrainian,Chinese,1,280,40.729025634333766,-73.98712
+NEW-182568,B Side Pizza & Wine Bar,4.5,$$,1366,"Pizza, Wine Bars, Cocktail Bars",Chinese,1,282,40.76388,-73.98821
+NEW-259286,Dai Hachi Sushi,4.5,$$,281,"Sushi Bars, Ramen, Lounges",Chinese,1,284,40.7463115904971,-73.95305585828432
+NEW-97425,KAM RAI THAI,4.6,$$,240,"Cocktail Bars, Thai",Chinese,1,286,40.76433,-73.91072
+NEW-754731,Santiago's Beer Garden,4.4,$$,978,"Dominican, Bars, Comfort Food",Chinese,1,287,40.79849,-73.93382
+NEW-622731,Da Andrea - Chelsea,4.7,$$$,486,"Italian, Wine Bars, Cocktail Bars",Italian,6,288,40.742041,-74.000467
+NEW-480875,Doughnut Plant,4.3,$$,3485,"Donuts, Coffee & Tea",Chinese,1,290,40.716337,-73.988577
+NEW-554161,Uva,4.0,$$$,2871,"Italian, Wine Bars, Pizza",Italian,6,291,40.77219299003591,-73.95561517222123
+NEW-102701,Shinka Ramen & Sake Bar,4.2,$$,462,"Ramen, Noodles, Cocktail Bars",Chinese,1,292,40.7170795322745,-73.9952574670315
+NEW-262703,Mezze on the River,4.2,$$$,233,"Seafood, Mediterranean",Chinese,1,293,40.7112473,-74.0176642
+NEW-789708,Mei Lai Wah Bakery,4.1,$,2227,"Bakeries, Dim Sum, Noodles",Chinese,1,294,40.7155758,-73.9979585
+NEW-878620,Em Vietnamese Bistro,4.3,$$,206,"Vietnamese, Noodles, Seafood",Vietnamese,8,295,40.70275,-73.99127
+NEW-484280,Cafe Katja,4.4,$$,866,"German, Bars, Austrian",Chinese,1,296,40.7177673,-73.990589
+NEW-164697,Carroll Place,4.0,$$,1352,"Italian, Venues & Event Spaces, Cocktail Bars",Italian,6,297,40.7287,-73.99971
+NEW-532372,Yuca Bar,4.0,$$,2115,"Latin American, Tapas Bars, Cocktail Bars",Chinese,1,298,40.7262,-73.9836
+NEW-857889,The Clam,4.1,$$$,484,"Seafood, New American, Cocktail Bars",Chinese,1,299,40.7303076612002,-74.0068030357639
+NEW-32201,Frida Midtown,4.4,$$$,225,"Mexican, Peruvian, Cocktail Bars",Mexican,5,300,40.75667,-73.969168
+NEW-225631,Ramen Ishida,4.5,$$,359,"Ramen, Noodles, Soup",Chinese,1,301,40.7196298,-73.988366
+NEW-974973,TØRST,4.4,$$,456,"Pubs, Beer Bar, New American",Chinese,1,302,40.7233949,-73.950856
+NEW-10065,Les Enfants de Boheme,4.3,$$,380,"French, Cocktail Bars, Wine Bars",French,2,303,40.7136187,-73.9888503
+NEW-413580,Kyuramen - Park Slope,4.3,$$,357,Ramen,Chinese,1,304,40.67791,-73.97929
+NEW-574470,Senza Gluten,4.2,$$,847,"Italian, Gluten-Free",Italian,6,305,40.729091,-74.000327
+NEW-468746,The Dead Rabbit,4.2,$$,2008,Cocktail Bars,Chinese,1,306,40.7032766048948,-74.01101979176725
+NEW-708801,Adrienne's Pizzabar,3.9,$$,1897,"Pizza, Italian, Beer Bar",Italian,6,307,40.70429102137911,-74.01006057997135
+NEW-920281,Golden Wuish The Duck House,4.3,$$$,208,"Asian Fusion, Dim Sum, Cocktail Bars",Chinese,1,308,40.707324,-74.006407
+NEW-555100,Gnoccheria East Village,4.2,$$,603,"Italian, Wine Bars",Italian,6,309,40.723315,-73.983139
+NEW-68513,Portale,4.5,$$$,243,"Italian, Bars",Italian,6,310,40.74023348892918,-73.9962661
+NEW-109590,Luke's Lobster FiDi,4.3,$$,1285,"Seafood, Soup, Sandwiches",Chinese,1,311,40.7046213003984,-74.0107793876969
+NEW-944802,Felice 15 Gold,4.1,$$$,503,"Wine Bars, Tuscan",Chinese,1,312,40.7078815,-74.00712879999999
+NEW-917537,House of Joy,4.0,$$,445,"Dim Sum, Cantonese",Chinese,1,313,40.71495,-73.99841
+NEW-652075,Trad Room,4.3,$$$,207,"Japanese, Sushi Bars, Cocktail Bars",Japanese,3,314,40.68391,-73.929419
+NEW-684104,The Brazen Tavern,4.3,$$,479,"New American, Sports Bars",Chinese,1,315,40.7593269348145,-73.9913101196289
+NEW-178148,OTB,4.3,$$,187,"New American, Breakfast & Brunch, Cocktail Bars",Chinese,1,316,40.710484,-73.963408
+NEW-16577,Arden,4.6,$$$,116,New American,Chinese,1,317,40.6717311853659,-73.957878
+NEW-397522,MáLà Project,4.2,$$,955,"Szechuan, Hot Pot",Chinese,1,318,40.72714681219886,-73.98541890324336
+NEW-63929,Empellón,3.8,$$$,476,"Mexican, Cocktail Bars, Desserts",Mexican,5,320,40.75972,-73.97472
+NEW-811419,Miti Miti,4.2,$$,1909,"Latin American, Mexican, Breakfast & Brunch",Mexican,5,321,40.6786672454389,-73.9791200818081
+NEW-692456,Gyu-Kaku Japanese BBQ,4.0,$$$,1428,"Japanese, Barbeque, Asian Fusion",Japanese,3,322,40.75551830794478,-73.97041881177492
+NEW-162101,Lilly's Craft and Kitchen,4.2,$$,1607,"New American, Breakfast & Brunch, Comfort Food",Chinese,1,323,40.76138,-73.99071
+NEW-57159,Anton's,3.9,$$$,211,"American, Wine Bars, Cocktail Bars",Chinese,1,324,40.735702,-74.005761
+NEW-472032,Ammazzacaffè,4.3,$$,374,"Cocktail Bars, Italian, Wine Bars",Italian,6,325,40.7113172,-73.9446243
+NEW-450476,Chazz Palminteri Italian Restaurant,4.0,$$$,392,"Italian, Bars, Venues & Event Spaces",Italian,6,326,40.756473,-73.980563
+NEW-170285,Terrace Restaurant and Bakery,4.6,$$,158,"American, Mexican, Breakfast & Brunch",Mexican,5,327,40.674397988541656,-73.98231996653998
+NEW-822649,Antoya Korean BBQ,4.2,$$$,1193,"Korean, Barbeque",Korean,7,328,40.74811,-73.9872
+NEW-107947,Toro Loco,4.0,$$,511,"Cocktail Bars, Mexican, Breakfast & Brunch",Mexican,5,329,40.70421,-74.01208
+NEW-936454,El Born,4.3,$$,465,"Spanish, Wine Bars, Tapas/Small Plates",Spanish,4,330,40.7243479163883,-73.9512226101037
+NEW-624724,Klom Klorm,4.3,$$,514,Thai,Chinese,1,331,40.70318,-73.91701
+NEW-571270,Ace's Pizza,4.7,$$,235,"Pizza, Chicken Wings",Chinese,1,332,40.71505,-73.958365
+NEW-176532,Piccoli Trattoria,4.3,$$,634,"Italian, Pasta Shops, Wine Bars",Italian,6,333,40.66518210863434,-73.98653954110445
+NEW-94132,Claw Daddy's,4.0,$$$,1983,"Cajun/Creole, Seafood",Chinese,1,334,40.722071,-73.98847
+NEW-987388,Old Tbilisi Garden,3.8,$$,576,"Modern European, Wine Bars, Georgian",Chinese,1,336,40.7287707,-74.0008161
+NEW-454367,Shake Shack Madison Square Park,4.0,$$,5829,"Fast Food, Burgers, Ice Cream & Frozen Yogurt",Chinese,1,337,40.7409,-73.98796
+NEW-140043,Omar's Kitchen and Rum Bar,3.9,$$$,299,"Caribbean, Bars",Chinese,1,338,40.720422,-73.984525
+NEW-971066,GupShup,4.0,$$$,842,"Indian, Cocktail Bars, Breakfast & Brunch",Chinese,1,339,40.7368831,-73.98764
+NEW-488747,Bar Belly,3.9,$$,262,"Jazz & Blues, Cocktail Bars, American",Chinese,1,340,40.71506,-73.9916
+NEW-940541,La Vara,4.0,$$$,444,Spanish,Spanish,4,341,40.68781,-73.99576
+NEW-813671,Hwa Yuan,3.9,$$$,534,Chinese,Chinese,1,342,40.7137,-73.99598
+NEW-80575,Loukoumi Taverna,4.3,$$,595,Greek,Chinese,1,344,40.77079605926445,-73.9027408
+NEW-923241,Go Nonna,4.4,$$,194,"Argentine, Italian",Italian,6,346,40.74832507137695,-73.9499416
+NEW-675744,Claro,4.2,$$,372,"Mexican, New Mexican Cuisine, Cocktail Bars",Mexican,5,347,40.6773587963142,-73.9861984489446
+NEW-274458,Spot Dessert Bar,4.1,$$,3554,"Desserts, Coffee & Tea, Ice Cream & Frozen Yogurt",Chinese,1,348,40.72939696325248,-73.98892566258719
+NEW-571388,Wok Wok Southeast Asian Kitchen,4.0,$$,1260,"Chinese, Malaysian, Thai",Chinese,1,351,40.7140555,-73.9988387116394
+NEW-238003,Mr Mista Oh,4.5,$$,235,Korean,Korean,7,352,40.74332767519521,-73.9912032
+NEW-488914,Empanada Mama,3.8,$,1003,"Latin American, Food Delivery Services, Burgers",Chinese,1,353,40.71876,-73.991026
+NEW-713761,Diner,3.8,$$,820,"Diners, New American, Breakfast & Brunch",Chinese,1,354,40.71069,-73.96559
+NEW-88991,Hatsuhana,4.2,$$$,1615,"Japanese, Sushi Bars",Japanese,3,355,40.75703,-73.97692
+NEW-761661,Piccante,4.6,$$,268,Italian,Italian,6,356,40.633181,-74.027351
+NEW-301760,R Lounge at Two Times Square,3.9,$$$,385,"Lounges, Steakhouses, American",Chinese,1,357,40.7597339,-73.9846097
+NEW-777764,Bierhaus NYC,3.8,$$,1072,"German, Sports Bars",Chinese,1,358,40.75261,-73.97342
+NEW-34479,Forever Thai,4.4,$$,218,Thai,Chinese,1,359,40.7039938,-73.9310911
+NEW-690780,Toloache 50,4.0,$$$,2348,Mexican,Mexican,5,360,40.762227,-73.9856178382696
+NEW-742041,Hillstone Restaurant,4.0,$$$,1240,"New American, Sushi Bars",Chinese,1,361,40.742666939835374,-73.98484186646938
+NEW-728202,Essex,3.7,$$$,2403,"Bars, New American",Chinese,1,362,40.7196975497428,-73.9873982202378
+NEW-204843,Patsy's Italian Restaurant,4.0,$$$,1294,"Italian, Southern, Wine Bars",Italian,6,363,40.76553,-73.98274
+NEW-650974,Macao Trading Company,3.8,$$$,908,"Asian Fusion, Portuguese, Chinese",Chinese,1,365,40.719623,-74.003904
+NEW-621851,Balzem,4.0,$$$,581,"Mediterranean, Tapas/Small Plates, Wine Bars",Chinese,1,366,40.721377,-73.995389
+NEW-75193,Castell Rooftop Lounge,4.0,$$,292,"Lounges, Cocktail Bars, Tapas Bars",Chinese,1,367,40.75558,-73.99012
+NEW-743890,Bijan's,3.9,$$,744,"New American, Cocktail Bars, Mediterranean",Chinese,1,368,40.6880003,-73.9866846895666
+NEW-859811,Bombay Bistro,4.4,$$,309,"Indian, Cocktail Bars",Chinese,1,369,40.73136,-74.00253
+NEW-938535,Legasea Bar & Grill,3.8,$$$,540,"New American, Bars",Chinese,1,370,40.75245723977984,-73.98936677488305
+NEW-814641,Souvlaki GR,3.9,$$,1014,Greek,Chinese,1,371,40.721196,-73.987118
+NEW-481985,Eleni's,4.3,$$$,234,Greek,Chinese,1,372,40.736601,-73.985085
+NEW-262628,Dons Bogam BBQ & Wine Bar,4.0,$$$,1182,"Korean, Barbeque, Wine Bars",Korean,7,373,40.746873,-73.984392
+NEW-712592,Treadwell Park,4.0,$$,276,"Beer Bar, American, Tapas/Small Plates",Chinese,1,374,40.71031141285253,-74.01658239999999
+NEW-72549,Ampersand,4.3,$$,274,"Cocktail Bars, New American",Chinese,1,375,40.7386178790617,-73.9834206895483
+NEW-77692,Harry's,4.1,$$$,873,"Steakhouses, Cafes, Bars",Chinese,1,376,40.704512,-74.009834
+NEW-849993,Prince Tea House,4.4,$$,431,"Tea Rooms, Desserts, Breakfast & Brunch",Chinese,1,378,40.72951,-73.98643
+NEW-237378,Caviar Russe,4.4,$$$$,210,"New American, Seafood",Chinese,1,379,40.76075,-73.97379
+NEW-642340,Itaewon Pocha,4.1,$$,345,"Gastropubs, Korean",Korean,7,380,40.7475125111924,-73.9867554408843
+NEW-533388,Kissaki Sushi,4.1,$$$$,276,"Sushi Bars, Japanese, Seafood",Japanese,3,381,40.72535,-73.99193
+NEW-272040,Patiala Indian Grill,4.3,$$,717,Indian,Chinese,1,382,40.7534700430117,-73.99595067259492
+NEW-433118,Salma,4.5,$$,224,"Lebanese, Breakfast & Brunch, Sandwiches",Chinese,1,383,40.730369942268375,-73.9837222575225
+NEW-312804,Little Alley,4.0,$$,580,Shanghainese,Chinese,1,384,40.74744,-73.97728
+NEW-588485,Kin Ramen,4.6,$$,574,"Ramen, Izakaya",Chinese,1,385,40.76435,-73.97904
+NEW-820693,LunÀtico,4.3,$$,171,"Cocktail Bars, Tapas/Small Plates, Music Venues",Chinese,1,386,40.6834345006833,-73.9346118563989
+NEW-612520,The Reading Room,4.5,$$$,158,"New American, Cocktail Bars, Breakfast & Brunch",Chinese,1,387,40.7555,-73.97802
+NEW-876644,Tokyo Record Bar,3.9,$$$$,255,Izakaya,Chinese,1,388,40.73063650237976,-74.0000907846602
+NEW-368051,Tavola,4.1,$$$,1547,"Italian, Pizza, Wine Bars",Italian,6,390,40.755403,-73.994516
+NEW-741967,Sea Wolf - Bushwick,3.8,$$,771,"Cocktail Bars, Seafood, American",Chinese,1,391,40.70683,-73.9228
+NEW-89446,Hole In The Wall - FiDi,4.2,$$,853,"Breakfast & Brunch, Coffee & Tea, Australian",Chinese,1,392,40.708426,-74.005657
+NEW-529845,Stella's,4.5,$$,163,Caribbean,Chinese,1,393,40.6690414829378,-73.98545571626407
+NEW-898035,Kushi Kushi Yaki,4.3,$$,208,"Tapas/Small Plates, Izakaya, Ramen",Chinese,1,394,40.747266,-73.9861784
+NEW-180764,Suzuki Shokudo,4.6,$$,236,"Sushi Bars, Ramen",Chinese,1,395,40.753598566900095,-73.93190439177181
+NEW-900647,Estiatorio Milos - Midtown New York,4.0,$$$$,1145,"Seafood, Greek, Mediterranean",Chinese,1,396,40.763541894630784,-73.97902511983438
+NEW-82317,Monarch Izakaya Restaurant,4.4,$$,169,"Cocktail Bars, Breakfast & Brunch, Japanese",Japanese,3,397,40.715909,-73.962252
+NEW-776121,Pita Palace,4.7,$,323,"Middle Eastern, Falafel",Chinese,1,398,40.7172335,-73.94504
+NEW-606694,Club A Steakhouse,4.5,$$$$,3523,"Steakhouses, Venues & Event Spaces",Japanese,3,399,40.760074,-73.965574
+NEW-236352,Marc Forgione,4.3,$$$,1056,New American,Japanese,3,400,40.71667,-74.00899
+NEW-547170,Atera,4.4,$$$$,366,New American,Japanese,3,401,40.71694,-74.0057
+NEW-795243,Beauty & Essex,4.0,$$$,4014,New American,Japanese,3,402,40.720434786101286,-73.98686057623863
+NEW-666137,Kimura,4.5,$$$,484,"Japanese, Hot Pot, Sushi Bars",Japanese,3,403,40.72904325062745,-73.9882174
+NEW-247785,Forma Pasta Factory,4.6,$$,815,"Pasta Shops, Italian, Salad",Italian,6,404,40.7238117,-73.95152088549953
+NEW-167889,LĒNA,4.4,$$,244,"French, Wine Bars, Cocktail Bars",French,2,405,40.719135,-73.991758
+NEW-74838,Yakiniku Futago Chelsea,4.2,$$$$,493,"Japanese, Barbeque, Steakhouses",Japanese,3,406,40.738851870947,-73.9941236398979
+NEW-605150,Torishin,3.8,$$$$,406,Japanese,Japanese,3,407,40.76496,-73.98721
+NEW-98552,Emporio,4.1,$$$,945,"Italian, Pizza",Italian,6,408,40.722647,-73.995246
+NEW-718240,Bateaux New York,4.1,$$$$,369,"Venues & Event Spaces, American, Boat Tours",Japanese,3,409,40.7475765509369,-74.00929588716517
+NEW-557724,Hop Lee Restaurant,3.9,$$,418,"Chinese, Seafood, Noodles",Chinese,1,410,40.71422,-73.99864
+NEW-951113,Henry's End,4.1,$$$,420,"New American, Bars",Japanese,3,411,40.6987126,-73.99263839731027
+NEW-291271,Brooklyn Dumpling Shop,3.8,$$,489,"Dim Sum, Asian Fusion",Japanese,3,412,40.72756,-73.98555
+NEW-85250,Balade,4.1,$$,1141,"Mediterranean, Lebanese, Bars",Japanese,3,413,40.73028887013061,-73.9830423
+NEW-468614,West New Malaysia,3.8,$$,937,Malaysian,Japanese,3,414,40.71549965706906,-73.99828502515052
+NEW-230129,Mezcali,4.0,$$,167,"Tacos, Tapas/Small Plates, Cocktail Bars",Japanese,3,416,40.70745,-74.00748
+NEW-691032,Reserve Cut,3.9,$$$$,361,"Steakhouses, Kosher, Asian Fusion",Japanese,3,417,40.70594,-74.01154
+NEW-875787,Dekalb Market Hall,4.2,$$,805,Food Court,Korean,7,418,40.69076075086799,-73.98305726378
+NEW-538228,Nino's 46,4.0,$$,1543,"Italian, Gluten-Free, Pizza",Italian,6,419,40.756899,-73.980507
+NEW-309750,Benito One,4.2,$$,891,Italian,Italian,6,420,40.7200188460948,-73.9969412164592
+NEW-908157,Super Taste,4.2,$,883,"Chinese, Noodles",Chinese,1,421,40.715117,-73.9933339
+NEW-317836,Tacuba,3.8,$$,799,"Mexican, Latin American, Cocktail Bars",Mexican,5,422,40.755953,-73.924415
+NEW-824078,The Paris Cafe,3.8,$$,422,"Cafes, Breakfast & Brunch, Cocktail Bars",Korean,7,423,40.70732,-74.00159
+NEW-944758,Sala Thai Restaurant,4.4,$$,1019,Thai,Italian,6,426,40.780049,-73.980209
+NEW-398298,Thailicious,4.6,$$,364,"Thai, Noodles, Cocktail Bars",Italian,6,427,40.71931,-73.9851608
+NEW-363546,Copinette,4.1,$$$,276,"French, American, Seafood",French,2,428,40.754163762317674,-73.9662617
+NEW-337015,Norma,4.4,$$,703,"Pizza, Sicilian",French,2,429,40.743553,-73.980026
+NEW-346802,Berimbau Brazilian Kitchen - West Village,4.5,$$,313,"Brazilian, Breakfast & Brunch, Acai Bowls",French,2,430,40.73007,-74.00366
+NEW-322172,Black Iron Burger,4.0,$$,1240,"Burgers, Beer Bar, Cocktail Bars",French,2,431,40.75427,-73.9903099
+NEW-31606,Simò Pizza - Meatpacking,4.5,$$,279,"Pizza, Italian, Desserts",Italian,6,432,40.7392597584612,-74.0088130692187
+NEW-35188,The Noortwyck,4.3,$$$,102,"New American, Seafood, Cocktail Bars",Spanish,4,433,40.732184555517,-74.0032725
+NEW-37372,Verlaine,4.0,$$,1563,Cocktail Bars,Spanish,4,434,40.720079,-73.987785
+TOK-603475,Gyukatsu MOTOMURA Tokyo Eki Yaesuguchi,4.8,￥￥,140,Japanese,Japanese,3,435,35.681375,139.770603
+TOK-989554,Kyubey Ginza,4.7,￥￥￥￥,141,Sushi Bars,Chinese,1,436,35.6685097691225,139.761222451596
+TOK-239276,Rokurinsha,4.5,￥,314,Ramen,Chinese,1,437,35.680068,139.76781
+TOK-60244,IPPUDO Ginza,4.6,￥,243,"Ramen, Dumplings, Donburi",Chinese,1,438,35.670699,139.767429
+TOK-628900,Kobebeef 511,4.6,￥￥￥￥,105,"Steakhouses, Japanese, Beer, Wine & Spirits",Japanese,3,439,35.674704,139.735364
+TOK-486529,T's Tantan Tokyo Station Keiyo Street,4.7,￥,201,"Vegan, Ramen, Japanese Curry",Chinese,1,437,35.679754,139.76692
+TOK-317810,Kyushu Jangara Akihabara Honten,4.8,￥,84,"Ramen, Donburi, Noodles",Chinese,1,440,35.700808,139.770676
+TOK-716829,Tapas Molecular Bar,4.8,￥￥￥￥,45,"Asian Fusion, Tapas Bars, Gastropubs",Chinese,1,441,35.6870716988793,139.77308716625
+TOK-653485,Narisawa,4.7,￥￥￥￥,68,Asian Fusion,Chinese,1,442,35.671529,139.722034
+TOK-325067,AKIBA FUKUROU,4.8,￥,83,Themed Cafes,Chinese,1,443,35.700801,139.774836
+TOK-330333,bills Ginza,4.4,￥￥,74,"Cafes, Desserts, Breakfast & Brunch",Chinese,1,444,35.673274,139.766543
+TOK-937663,Sushizanmai Tsukiji Ekimae,4.7,￥￥,47,Sushi Bars,Chinese,1,445,35.6675715648913,139.772446538519
+TOK-857029,Marugo,4.7,￥￥,52,Tonkatsu,Chinese,1,446,35.6991446091511,139.769706884314
+TOK-341599,SOUL FOOD HOUSE,4.7,￥￥,62,"Western Style Japanese Food, American, Cajun/Creole",Chinese,1,447,35.655362,139.734572
+TOK-554258,Kaneko Hannosuke,4.6,￥,88,"Tempura, Donburi",Chinese,1,448,35.6854024141766,139.775257246896
+TOK-820243,NINJA AKASAKA,4.2,￥￥￥,114,"Gastropubs, Steakhouses, Sukiyaki",Chinese,1,449,35.677974,139.737277
+TOK-710841,SUSHIZANMAI Honten,4.4,￥￥,191,"Sushi Bars, Seafood",Chinese,1,450,35.665917,139.770608
+TOK-454678,Coco Ichibanya Jr Akihabara Station Syouwadooriguchi,4.6,￥,59,Japanese Curry,Chinese,1,451,35.6984567962002,139.775853614179
+TOK-110792,Ichiran Shimbashi,4.5,￥,86,Ramen,Chinese,1,453,35.6671406436757,139.757028417149
+TOK-186785,TsuruTonTan Udon Noodle Brasserie Ginza,4.3,￥￥,40,"Udon, Bars, Izakaya",Chinese,1,455,35.6724806,139.7629119
+TOK-147017,Gyukatsu Ichi Ni San,4.8,￥,49,Tempura,Chinese,1,456,35.70203,139.7706244
+TOK-542738,Sato Yosuke Ginza,4.5,￥,48,"Udon, Comfort Food",Chinese,1,457,35.671482,139.761507
+TOK-734955,Sushisho Masa,4.9,￥￥￥￥,55,"Sushi Bars, Japanese",Japanese,3,459,35.6594639291003,139.72309243524
+TOK-251095,Umegaoka Sushi No Midori Sohonten Ginza,4.5,￥￥,106,Sushi Bars,Chinese,1,460,35.6703869811431,139.759601
+TOK-582893,Ichiran Shibuya,4.6,￥,722,Ramen,Chinese,1,461,35.661131,139.700987
+TOK-98561,Devil Craft Kanda,4.4,￥￥,31,"Pizza, Pubs, Beer Bar",Chinese,1,462,35.689582,139.771157
+TOK-578841,Tonkatsu Maisen Aoyama Honten,4.5,￥￥,196,"Tonkatsu, Kaiseki, Izakaya",Chinese,1,463,35.667988,139.711531
+TOK-107574,Tokyo Shiba Tofuya Ukai,4.8,￥￥￥,45,"Kaiseki, Tofu Shops",Chinese,1,465,35.6575980632418,139.745124255345
+TOK-25104,Oriental Lounge,4.9,￥￥￥,11,"Lounges, Cafes",Chinese,1,441,35.6869042,139.7730525
+TOK-867723,Savoy Azabujuban ,4.7,￥￥,89,"Italian, Pizza, Beer, Wine & Spirits",Italian,6,466,35.6574127379978,139.732225355827
+TOK-164367,Hitsumabushi Nagoya Bincho,4.7,￥￥,30,"Unagi, Comfort Food",Chinese,1,467,35.674371,139.765366
+TOK-909912,Ekibenya Matsuri,4.5,￥￥,24,"Delicatessen, Onigiri, Bento",Chinese,1,437,35.681744,139.766811
+TOK-702261,Gyūkatsu Motomura Shinjuku Minamiguchi,4.7,￥￥,128,"Tonkatsu, Canteen",Chinese,1,468,35.69322,139.701468
+TOK-588219,A HAPPY PANCAKE Ginza,4.6,￥,96,"Cafes, Patisserie/Cake Shop, Pancakes",Chinese,1,470,35.670658,139.765263
+TOK-394169,Nemuro hanamaru,4.3,￥￥,96,"Sushi Bars, Conveyor Belt Sushi",Chinese,1,471,35.6798409,139.7650921
+TOK-709224,Turret COFFEE,4.6,￥,115,"Cafes, Coffee & Tea",Chinese,1,472,35.668022,139.771975
+TOK-373270,Annam Indian Resturant Ginza,4.5,￥￥,54,"Indian, Gastropubs",Chinese,1,473,35.667536,139.761953
+TOK-191045,Jirōmaru Shinjuku Honten,4.5,￥￥,226,Yakiniku,Chinese,1,474,35.69493,139.700426
+TOK-115902,IPPUDO Roppongi,4.5,￥,72,Ramen,Chinese,1,475,35.663788,139.73227
+TOK-41278,NOBU TOKYO,4.5,￥￥￥,26,"Sushi Bars, Kaiseki",Chinese,1,476,35.666287,139.744055
+TOK-78823,Okonomiyaki Kiji Marunouchi,4.3,￥,45,"Okonomiyaki, Soba",Chinese,1,477,35.678457,139.765086
+TOK-237015,Taniya,4.6,￥,27,Udon,Chinese,1,478,35.6846647214797,139.785671116364
+TOK-419560,Eggs 'n Things Ginza,3.8,￥,50,"Hawaiian, Breakfast & Brunch, Desserts",Chinese,1,479,35.674285,139.768552
+TOK-809243,Fuunji,4.6,￥,277,Ramen,Chinese,1,480,35.6868279,139.6966516
+TOK-455494,鍋ぞう 新宿三丁目店,4.5,￥￥,118,"Sukiyaki, Hot Pot",Chinese,1,482,35.6911287349284,139.703586147396
+TOK-613551,The French Toast Factory Yodobashi Akiba,4.5,￥,51,"Desserts, Cafes",Chinese,1,483,35.69877,139.774854
+TOK-421549,Andaz tavern,4.4,￥￥￥,20,"Modern European, Lounges, Japanese",Japanese,3,484,35.6668078059161,139.749754384679
+TOK-923926,NAKIRYU,4.6,￥,132,"Ramen, Noodles",Chinese,1,485,35.72868,139.730341
+TOK-991864, ICHIRAN Shinjuku Kabukicho,4.7,￥,124,Ramen,Chinese,1,486,35.694412,139.701537
+TOK-719408,Yakiniku Futago GINZA,4.7,￥￥,18,"Yakiniku, Izakaya, Horumon",Chinese,1,487,35.670136,139.760157
+TOK-472184,ICHIRAN Asakusa ,4.5,￥,90,Ramen,Chinese,1,488,35.7118797302246,139.79670715332
+TOK-734997,Ishikawa,4.8,￥￥￥￥,17,Kaiseki,Chinese,1,489,35.7012496695587,139.739410479443
+TOK-361267,Asakusa Imahan Kokusaitōri Honten,4.8,￥￥￥￥,24,"Sukiyaki, Kaiseki, Steakhouses",Chinese,1,490,35.7139949316521,139.792136328246
+TOK-479041,Yayoiken,4.6,￥,33,"Izakaya, Breakfast & Brunch, Canteen",Chinese,1,491,35.7087996676341,139.791586306951
+TOK-217192,Ginza Kimuraya,4.4,￥,47,"Bakeries, Cafes",Chinese,1,492,35.6717557,139.7651673
+TOK-81867,ICHIRAN Shibuya Spain-zaka,4.8,￥,73,Ramen,Chinese,1,493,35.660989,139.69871
+TOK-770963,Hinatomaru Asakusa,4.7,￥,59,Sushi Bars,Chinese,1,495,35.711847,139.795839
+TOK-713193,Mawashi Zushi KATSUMIDORI  SEIBU Shibuya,4.5,￥￥,144,Conveyor Belt Sushi,Chinese,1,496,35.660236,139.700514
+TOK-640083,Rokkasen,4.8,￥￥￥,68,"Yakiniku, Sukiyaki",Chinese,1,497,35.6933694670044,139.698855
+TOK-264966,PABLO mini Akihabara,4.6,￥,70,Desserts,Chinese,1,498,35.698088,139.772142
+TOK-250424,Uokin honten,4.7,￥￥￥,17,Japanese,Japanese,3,499,35.6651230997705,139.757295142883
+TOK-108764,Honey Toast Cafe,4.3,￥,55,"Cafes, Desserts, Burgers",Chinese,1,500,35.697791562979,139.770668077207
+TOK-107781,Gyukatsu Motomura Shimbashi,4.7,￥,22,"Western Style Japanese Food, Tempura",Chinese,1,501,35.666431,139.756036
+TOK-322136,IPPUDO Asakusa ROX･3G,4.6,￥,41,Ramen,Chinese,1,502,35.712436,139.793646
+TOK-318893,Reissue,4.6,￥,154,"Coffee & Tea, Cafes",Chinese,1,503,35.6711780398366,139.707956580587
+TOK-170609,Sukiyabashi Jiro,3.9,￥￥￥￥,91,Sushi Bars,Chinese,1,504,35.672616,139.764021
+TOK-723754,POUND-YA ROPPONGI,4.6,￥￥,37,Steakhouses,Chinese,1,505,35.664558,139.732639
+TOK-908291,Beer Hall LION GINZA 7chome ,3.8,￥￥,52,"Beer Bar, Western Style Japanese Food",Chinese,1,506,35.669202,139.763158
+TOK-317925,Harajuku Sakuratei,4.3,￥￥,82,"Teppanyaki, Izakaya, Okonomiyaki",Chinese,1,507,35.6705928380895,139.708339349701
+TOK-440354,Yabaton Tokyo Ginzaten,4.5,￥,24,"Donburi, Tonkatsu, Sukiyaki",Chinese,1,510,35.672637,139.769331
+TOK-624451,東京寿司 ITAMAE SUSHI 銀座コリドー店,4.3,￥￥,19,"Sushi Bars, Seafood, Izakaya",Chinese,1,511,35.6695803,139.759328
+TOK-741788,Udon Maruka,4.7,￥,54,Udon,Chinese,1,512,35.6967443,139.760153
+TOK-887421,Sushi Yoshitake,4.5,￥￥￥￥,33,Sushi Bars,Chinese,1,513,35.6685368794993,139.760988442548
+TOK-120416,"SUSHI TOKYO TEN, Shinjuku Newman",4.4,￥￥￥,82,"Sushi Bars, Seafood, Japanese",Japanese,3,514,35.688329,139.700503
+TOK-605178,Tempura Fukamachi,4.6,￥￥￥￥,20,Tempura,Chinese,1,515,35.676444,139.770427
+TOK-79297,Ichiran Atre Ueno Yamashitaguchi,4.1,￥,69,Ramen,Chinese,1,516,35.712421,139.775218
+TOK-402864,Nabezo Asakusa Kaminarimon,4.6,￥￥,21,"Sukiyaki, Hot Pot",Chinese,1,517,35.710801,139.794985
+TOK-426618,Abura Soba Tōkyō Aburagumi Sōhonten ,4.8,￥,71,"Ramen, Soba, Noodles",Chinese,1,518,35.676426,139.7365388
+TOK-360411,Gyūkatsu Motomura Shibuya,4.7,￥￥,148,"Tempura, Western Style Japanese Food",Chinese,1,519,35.656943,139.70397
+TOK-722325,Roast Beef Ohno Akihabara,4.4,￥,43,"Western Style Japanese Food, Steakhouses, Canteen",Chinese,1,520,35.698459,139.770606
+TOK-446548,Tempura Kondō,4.4,￥￥￥￥,19,Tempura,Chinese,1,521,35.6711134147684,139.763060245893
+TOK-439660,Pizza Studio Tamaki,4.4,￥￥,40,"Italian, Pizza",Italian,6,522,35.655649,139.744368
+TOK-603834,TEMPURA TENDON TENYA Ginza,4.5,￥,33,"Tempura, Donburi, Soba",Chinese,1,523,35.671873,139.768251
+TOK-371351,ICHIRAN Harajuku,4.5,￥,85,Ramen,Chinese,1,527,35.667882,139.705215
+TOK-282977,STARBUCKS COFFEE Reserve® Store Ginza Maronier Dori ,4.4,￥,30,"Coffee & Tea, Cafes",Chinese,1,528,35.672292,139.767615
+TOK-990171,Ginza Sushiko Marunouchi Building,4.8,￥￥￥,12,Sushi Bars,Chinese,1,529,35.681097585635,139.763630072857
+TOK-15182,Kaikaya,4.3,￥￥,83,"Seafood, Japanese",Japanese,3,530,35.656747,139.694173
+TOK-794363,一蘭 六本木店,4.5,￥,68,Ramen,Chinese,1,533,35.664171,139.731482
+TOK-897310,Nabezo Shibuya Center Gai,4.5,￥￥,89,"Hot Pot, Buffets",Chinese,1,534,35.661307,139.6975
+TOK-366904,DOWNTOWN B's,4.8,￥,28,Indian,Chinese,1,535,35.665048,139.736648
+TOK-637349,Afuri Ebisu,4.4,￥,149,Ramen,Chinese,1,536,35.648317,139.710867
+TOK-450501,Umegaoka Sushinomidori Sōhonten Shibuya,4.4,￥￥,158,Sushi Bars,Chinese,1,537,35.658344,139.698986
+TOK-152441,Kaitensushi Nemuro Hanamaru Ginza,4.0,￥,41,Conveyor Belt Sushi,Chinese,1,455,35.671832,139.76225
+TOK-897964,Holi Indian Restaurant,4.9,￥,11,Indian,Chinese,1,538,35.6528828084847,139.747472140723
+TOK-566275,HAKATA MOTSUNABE YAMAYA Marunouchi,4.8,￥￥￥,6,"Comfort Food, Hot Pot",Chinese,1,539,35.684438,139.764496
+TOK-2902,Kien,4.7,￥￥￥,13,Kaiseki,Chinese,1,540,35.6689060943716,139.73981786039
+TOK-936837,Tsukiji Itadori Uogashi Senryo,4.2,￥￥,24,"Sushi Bars, Seafood",Chinese,1,541,35.6654375423276,139.769986162955
+TOK-493956,Afuri Roppongi Crossing,4.4,￥,55,Ramen,Chinese,1,542,35.663626,139.732648
+TOK-522552,Yona Yona Beer Works Akasaka,4.5,￥￥,18,"Brasseries, Beer, Wine & Spirits, Beer Bar",Chinese,1,449,35.6772913336518,139.737396010976
+TOK-265960,Kyushu Jangara Ginza,4.5,￥,35,"Ramen, Noodles",Chinese,1,543,35.669431,139.76485
+TOK-219579,Tonkatsu Maisen - Daimaru Tokyo Restarurant,4.7,￥￥,13,"Tonkatsu, Izakaya, Kaiseki",Chinese,1,437,35.68198,139.766745
+TOK-511934,Nadai Tonkatsu Katsukura Shinjuku TAKASHIMAYA,4.5,￥￥,85,Tonkatsu,Chinese,1,544,35.687701,139.702121
+TOK-536348,Nishiazabu Butagumi,4.4,￥￥￥,54,Tonkatsu,Chinese,1,545,35.660939,139.722114
+TOK-753590,L'Effervescence,4.5,￥￥￥￥,28,French,French,2,546,35.6602104128861,139.719400496102
+TOK-529491,Hakushu,4.8,￥￥￥,114,"Steakhouses, Teppanyaki",Chinese,1,547,35.6562822526991,139.700982063529
+TOK-951883,MUCHO －MODERN MEXICANO－,4.1,￥￥,21,"Mexican, Bars, American",Mexican,5,477,35.678134,139.764686
+TOK-643930,HENRY'S BURGER Akihabara,4.7,￥,20,"Burgers, Yakiniku",Chinese,1,548,35.70226,139.770475
+TOK-847192,CAFE DE L’AMBRE,4.4,￥,37,"Cafes, Coffee & Tea",Chinese,1,549,35.667975,139.762328
+TOK-29226,Sushizanmai Asakusakaminarimon,4.2,￥,37,Sushi Bars,Chinese,1,550,35.7112256125179,139.795545595344
+TOK-125901,Kayaba Coffee,4.6,￥,32,Cafes,Chinese,1,552,35.7211571604165,139.770685078778
+TOK-940053,Ginza TENRYU,4.3,￥￥,21,"Chinese, Noodles, Dumplings",Chinese,1,553,35.674183,139.766931
+TOK-136208,Cerise,4.3,￥￥￥,12,"Cafes, Breakfast & Brunch",Chinese,1,554,35.66285,139.760968
+TOK-218488,Chanko TOMOEGATA Ryogoku shop,4.3,￥￥,21,Japanese,Japanese,3,555,35.6946898878885,139.792443749625
+TOK-710084,Sushi Kanesaka Palace Hotel ,4.6,￥￥￥,12,Sushi Bars,Chinese,1,556,35.684564,139.761059
+TOK-578945,RyuGin,4.1,￥￥￥￥,38,"Kaiseki, Seafood",Chinese,1,558,35.662770641341,139.728277
+TOK-615404,Unitora Kurau,4.3,￥￥￥,26,"Sushi Bars, Seafood",Chinese,1,541,35.6654271091497,139.770011588399
+TOK-498666,Lugdunum Bouchon Lyonnais,4.8,￥￥￥,10,French,French,2,559,35.7017737955929,139.740090677618
+TOK-326926,6th by ORIENTAL HOTEL,3.8,￥￥,26,"Italian, Bars, Hotels",Italian,6,560,35.675261,139.762227
+TOK-608294,Tenpura Mikawa Keyakizaka,5.0,￥￥￥￥,10,Tempura,Chinese,1,563,35.658773,139.729414
+TOK-659285,Sugoi Niboshi Ramen Nagi Shinjuku Golden Gai Honkan,4.3,￥,124,Ramen,Chinese,1,564,35.693764,139.704534
+TOK-865045,Tempura Shinjuku Tsunahachi Tokyo Daimaru,4.3,￥￥￥,10,Tempura,Chinese,1,437,35.6817335773429,139.769230135483
+TOK-918133,Komagata Dozeu Honten,4.6,￥￥,15,"Izakaya, Hot Pot",Chinese,1,565,35.7076176725718,139.795090224833
+TOK-319179,Buta Daigaku,4.5,￥,28,Tonkatsu,Chinese,1,566,35.666315,139.757003
+TOK-553806,Ginza Gyuan,4.4,￥￥￥￥,55,"Steakhouses, Sukiyaki",Chinese,1,568,35.6689450990182,139.76498794801
+TOK-207812,Katsuzen,4.3,￥￥￥￥,17,Tonkatsu,Chinese,1,570,35.6700740789065,139.762756146572
+TOK-463869,Tatsunoya Otakibashidōri,4.7,￥,92,"Ramen, Noodles",Chinese,1,571,35.696047764812,139.698399721994
+TOK-343115,Sushi Bar Yasuda,4.4,￥￥￥￥,96,Sushi Bars,Chinese,1,572,35.665927,139.720409
+TOK-741696,Aoyama Flower Market Tea House Akasaka Biz Tower,4.5,￥,24,Cafes,Chinese,1,574,35.672821,139.736542
+TOK-403270,Asakusa Kagetsudō Honten,4.6,￥,79,"Bakeries, Desserts",Chinese,1,575,35.714631,139.795172
+TOK-122991,Tempura Shinjuku Tsunahachi Ginza,4.7,￥￥￥,12,"Tempura, Izakaya",Chinese,1,576,35.671936,139.766265
+TOK-287008,TAKAZAWA,5.0,￥￥￥,7,Asian Fusion,Chinese,1,579,35.673758,139.738574
+TOK-419485,Tendon Kanekoya Akasaka,4.2,￥,29,"Tempura, Donburi",Chinese,1,581,35.671366,139.741
+TOK-553547,Little Koiwai,4.6,￥,9,"Sandwiches, Pasta Shops",Chinese,1,583,35.6862532732362,139.765688858831
+TOK-816960,Ginza Ukaitei,4.6,￥￥￥￥,11,"Teppanyaki, Seafood, Steakhouses",Chinese,1,584,35.6680969236424,139.767319173709
+TOK-849468,YAKINIKU LIKE Akihabara Denkigai,4.8,￥,12,"Yakiniku, Horumon, Canteen",Chinese,1,585,35.7009506225586,139.769607543945
+TOK-483435,Piacere,4.2,￥￥￥￥,9,Italian,Italian,6,586,35.6825510402671,139.769343851827
+TOK-910988,Arossa Ginza,4.8,￥￥￥,6,"Wine Bars, Gastropubs, Meat Shops",Chinese,1,587,35.6739889,139.766406
+TOK-276869,Sense,4.8,￥￥￥,8,Cantonese,Chinese,1,441,35.686818,139.7724942
+TOK-281024,Yakiniku USHIGORO Ginza,4.4,￥￥￥￥,13,"Yakiniku, Horumon",Chinese,1,589,35.674538,139.767723
+TOK-404712,Tempura Meshi Kaneko Hannosuke,4.7,￥,14,"Tempura, Canteen, Cafeteria",Chinese,1,590,35.686328,139.775701
+TOK-934255,The Great Burger,4.2,￥,54,"Burgers, Cafes, Patisserie/Cake Shop",Chinese,1,591,35.666249,139.704656
+TOK-707656,KIKUNOI Akasaka,4.6,￥￥￥￥,12,Kaiseki,Chinese,1,592,35.6699205487001,139.734084971381
+TOK-470427,Gonpachi Nishi-Azabu,3.9,￥￥,77,"Yakitori, Izakaya, Soba",Chinese,1,593,35.6602253,139.7235128
+TOK-616857,AIN SOPH. Ripple,4.6,￥,58,"Vegan, Burgers, Cafes",Chinese,1,595,35.697847,139.700727
+TOK-143100,Manten Sushi,4.1,￥￥,19,Sushi Bars,Chinese,1,596,35.6870105462973,139.774491531768
+TOK-533518,Shinjuku Kappō Nakajima,4.4,￥,76,Kaiseki,Chinese,1,597,35.690197,139.703937
+TOK-233411,Masuya Shiba Daimon,4.3,￥,16,"Izakaya, Oden",Chinese,1,598,35.6568491843983,139.752714753396
+TOK-556184,Uogashi Nihon Ichi Shinjuku Nishiguchi,4.7,￥,154,"Sushi Bars, Japanese",Japanese,3,600,35.6899698,139.6972898
+TOK-59947,Ikinari Steak Ginza 6 Chome,4.4,￥￥,16,Steakhouses,Chinese,1,601,35.6711677,139.7612247
+TOK-300533,at-home cafe Main Branch - Maid Cafe,3.7,￥￥,62,Themed Cafes,Chinese,1,602,35.699566,139.77073
+TOK-314607,CAT CAFE MOCHA Akihabara,4.1,￥,29,Themed Cafes,Chinese,1,603,35.701315,139.771816
+TOK-507486,KYUSHU JANGARA Omotesando 2F,4.5,￥,88,Ramen,Chinese,1,604,35.669765,139.703557
+TOK-506434,Menya Shichisai Hatchōbori,4.4,￥,19,Ramen,Chinese,1,605,35.6772053394806,139.776279330254
+TOK-888439,Bifteck Kawamura Ginza,4.0,￥￥￥￥,15,"Teppanyaki, Steakhouses",Chinese,1,606,35.671365,139.762313
+TOK-493844,Torigin Ginza Honten,3.6,￥￥,33,"Yakitori, Izakaya",Chinese,1,607,35.6712995174847,139.763526865852
+TOK-968873,Cafe Stylo,4.6,￥￥,7,"Cafes, Western Style Japanese Food",Chinese,1,609,35.6730207722965,139.767330173541
+TOK-400124,LAVAROCK,3.8,￥￥,17,"Bistros, Bars, American",Chinese,1,610,35.6762415,139.7706974
+TOK-216427,Tsukiji Sushi Nagomi GRANSTA Marunouchi,4.2,￥￥,9,"Sushi Bars, Unagi",Chinese,1,437,35.682709,139.766616
+TOK-998977,Gyukatsu Motomura Shibuya,4.8,￥,74,"Western Style Japanese Food, Tempura",Chinese,1,612,35.659644,139.704086
+TOK-359435,Asakusa Nadai Ramen Yoroiya,4.4,￥,37,"Ramen, Dumplings, Noodles",Chinese,1,613,35.712741,139.796777
+TOK-648731,Shinamenhashigo,4.6,￥,17,"Ramen, Chinese",Chinese,1,614,35.6580696105957,139.751403808594
+TOK-73293,Yakiniku Aburiya Musashi,4.2,￥￥,18,"Korean, Yakiniku, Horumon",Korean,7,615,35.670931,139.760296
+TOK-402595,Yamachan Ginza,4.7,￥,12,Ramen,Chinese,1,616,35.6704100265969,139.768421209056
+TOK-347240,Aoyama Flower Market Teahouse Minami Aoyama Honten,4.5,￥￥,62,"Cafes, Tea Rooms",Chinese,1,617,35.66486,139.712836
+TOK-275994,Nishiazabu Gogyou,4.4,￥￥,30,Ramen,Chinese,1,618,35.6620214550768,139.724420831668
+TOK-669301,Tir na nog,4.3,￥￥,31,"Cocktail Bars, Lounges",Chinese,1,620,35.670291,139.765621
+TOK-596455,Ant 'n Bee Roppongi,4.6,￥￥,26,"Pubs, Beer Bar",Chinese,1,621,35.66272,139.733026
+TOK-921609,Ichiran Shinjuku Chuo Higashiguchi,4.6,￥,548,Ramen,Japanese,3,622,35.69053,139.7027647
+TOK-484257,Shutoku 2nd,5.0,￥￥,8,"Sushi Bars, Seafood, Unagi",Japanese,3,623,35.664606,139.771138
+TOK-620107,BARBACOA CLASSICO Marunouchi,4.7,￥￥￥,9,"Brazilian, Barbeque",Japanese,3,567,35.682425,139.763998
+TOK-762561,L'ATELIER de Joël Robuchon,4.1,￥￥￥,49,"French, Bistros, Desserts",French,2,624,35.660112,139.729383
+TOK-429713,Ginza Sushi-Ko Honten,4.7,￥￥￥￥,32,Sushi Bars,Japanese,3,625,35.671341,139.761141
+TOK-459701,TenIchi Ginza,4.7,￥￥￥￥,12,Tempura,Japanese,3,627,35.6709073100082,139.762437528966
+TOK-92706,Ginza Manneken,4.3,￥,49,"Desserts, Waffles, Belgian",Japanese,3,628,35.671369,139.764536
+TOK-581773,La Bonne Table,5.0,￥￥￥,5,French,French,2,629,35.6869163707732,139.774867361692
+TOK-106785,CENTRE THE BAKERY,4.4,￥,31,"Bakeries, Cafes, Sandwiches",Japanese,3,630,35.675597,139.76653
+TOK-277478,Fūryū Okonomiyaki Sometarō,4.7,￥,99,"Okonomiyaki, Soba",Japanese,3,631,35.71195,139.790924
+TOK-395608,Naniwa Hitokuchi Gyōza Chao Chao Yūrakuchō,5.0,￥,9,"Dumplings, Izakaya",Japanese,3,632,35.672897308348,139.760359291801
+TOK-130372,Chaya Macrobiotics Royal Park Hotel The Shiodome,4.4,￥,17,"Cafes, Vegetarian, Delis",Korean,7,633,35.6641954,139.7605401
+TOK-587349,KOHIKAN Asakusa,4.9,￥,15,"Coffee & Tea, Cafes",Korean,7,634,35.711332,139.793942
+TOK-965097,Curry House CoCo Ichibanya Shinjuku Nishiguchi,4.4,￥,111,Japanese Curry,Korean,7,635,35.6931863073738,139.699341000702
+TOK-776364,Tonkatsu Maisen Shibuya Hikarie,4.6,￥￥,41,"Tonkatsu, Izakaya, Kaiseki",Korean,7,636,35.659051,139.703674
+TOK-145758,Eggcellent,4.1,￥,117,"American, Breakfast & Brunch, Cafes",Korean,7,624,35.659882,139.729872
+TOK-694289,Hainan Jeefan Shokudo Azabu Shop,4.8,￥￥￥,10,"Singaporean, Wine Bars, Izakaya",Korean,7,637,35.658151,139.732005
+TOK-123028,Cicada,4.4,￥￥￥,35,"Wine Bars, Mediterranean, Spanish",Spanish,4,638,35.662933,139.7125859
+TOK-942665,Kitchen Nankai Jimbocho,4.6,￥,13,"Western Style Japanese Food, Japanese Curry",Korean,7,640,35.6955194,139.7591559
+TOK-489613,Bar Starman,4.8,￥￥,16,Cocktail Bars,Korean,7,641,35.6629780149479,139.734340530744
+TOK-949291,MENYA MUSASHI Bujin,4.5,￥,17,"Ramen, Japanese Curry, Noodles",Korean,7,642,35.69859,139.775833
+TOK-697327,Gen Yamamoto,4.6,￥￥￥,38,Bars,Italian,6,643,35.6565253174301,139.734311651084
+TOK-251876,Karashibi Miso Rāmen KIKANBO Kanda Honten,4.5,￥,21,"Ramen, Noodles",Italian,6,644,35.693846664578,139.77234659758
+TOK-111434,THE APOLLO TOKYU PLAZA GINZA,4.0,￥￥￥,22,"Greek, Mediterranean",Mexican,5,455,35.6725000104692,139.762719
+TOK-612186,LADUREE Salon de the Ginza MITSUKOSHI,4.3,￥￥￥,26,"Cafes, Patisserie/Cake Shop, Macarons",Vietnamese,8,645,35.671355,139.765435
+PAR-161567,Le Comptoir de la Gastronomie,4.5,€€,1401,French,French,2,646,48.8645157999652,2.34540185646608
+PAR-373428,L'Avant Comptoir,4.4,€€,700,"Tapas Bars, Wine Bars",Chinese,1,647,48.85202,2.3388
+PAR-109355,Angelina,4.0,€€€,1682,"Breakfast & Brunch, Tea Rooms, Patisserie/Cake Shop",Chinese,1,648,48.865092,2.328464
+PAR-140433,Le Temps des Cerises,4.4,€€€,391,"French, Bistros, Cafes",French,2,649,48.852569,2.364184
+PAR-242701,L'As du Fallafel,4.3,€€,2101,"Kosher, Sandwiches, Falafel",Chinese,1,650,48.857498,2.35908
+PAR-900058,Guy Savoy,4.6,€€€€,99,French,French,2,651,48.857,2.3386999
+PAR-654316,Frenchie,4.4,€€€€,260,"French, Modern European",French,2,652,48.867754322367,2.3477420774331
+PAR-485675,Chez Fernand,4.4,€€€,264,French,French,2,654,48.85461,2.33954
+PAR-516483,L'Atelier de Joël Robuchon,4.1,€€€€,427,"French, Modern European",French,2,655,48.8568107229545,2.32785068883627
+PAR-425861,Chez Janou,4.1,€€,653,"Bistros, Provencal",Chinese,1,656,48.8566952430158,2.36717752386277
+PAR-265494,Septime,4.3,€€€€,165,Modern European,Chinese,1,657,48.85355,2.380665
+PAR-732463,Ober Mamma,4.3,€€,334,"Pizza, Italian, Cocktail Bars",Italian,6,658,48.86446,2.37018
+PAR-849911,L'Arpège,4.0,€€€€,245,French,French,2,659,48.855753,2.316982
+PAR-786048,Le Colimaçon,4.3,€€€,167,"French, Bistros, Steakhouses",French,2,660,48.8580235883243,2.35806396197131
+PAR-402149,Le Fumoir,3.8,€€€,330,"Lounges, Modern European",Chinese,1,661,48.8604,2.34055
+PAR-710655,La Régalade,4.5,€€€,110,French,French,2,662,48.8616441182389,2.34201570904084
+PAR-21445,Le Petit Cler,4.2,€€,436,Bistros,Chinese,1,663,48.85743,2.30604
+PAR-216228,Le Comptoir,3.8,€€€,463,Bistros,Chinese,1,664,48.851945700766,2.338757487651
+PAR-541026,L'Ami Jean,4.2,€€€€,267,"French, Basque",French,2,665,48.86018,2.30594
+PAR-357063,Les Philosophes,3.9,€€,385,Bistros,Chinese,1,666,48.857332,2.357493
+PAR-13312,Au Père Louis,4.0,€€,278,"Wine Bars, French",French,2,667,48.848966,2.340349
+PAR-525215,Le Calife,4.3,€€€€,122,French,French,2,668,48.8583205,2.3346584
+PAR-25240,Pain Vin Fromages,4.4,€€,280,Fondue,Chinese,1,669,48.860525,2.354439
+PAR-633183,Bouillon Chartier,3.4,€€,1112,French,French,2,670,48.87194,2.34317
+PAR-420868,Monsieur Bleu,3.9,€€€€,225,"French, Breakfast & Brunch",French,2,672,48.863716,2.296757
+PAR-253712,Sacrée Fleur,4.6,€€€,113,French,French,2,673,48.88758,2.3479199
+PAR-989861,Gambino,4.3,€€,265,Italian,Italian,6,674,48.86736,2.33298
+PAR-300095,Kei,4.7,€€€€,40,French,French,2,675,48.864366,2.342079
+PAR-866345,Le Relais de l'Entrecôte,4.1,€€€,572,Steakhouses,Chinese,1,676,48.85469,2.3329
+PAR-953278,Chez Mademoiselle,4.5,€€€,127,French,French,2,677,48.85432,2.35979
+PAR-91377,ASPIC,5.0,€€€€,32,French,French,2,678,48.87918,2.34367
+PAR-472132,Ellsworth,4.3,€€€,126,"Wine Bars, French",French,2,679,48.86558,2.33689
+PAR-932957,Café de Mars,4.5,€€,140,"French, Mediterranean, Asian Fusion",French,2,681,48.85731,2.30205
+PAR-885723,Le Bistrot des Campagnes,4.6,€€,143,Bistros,Chinese,1,682,48.84096,2.3307
+PAR-190473,Le Bistrot des Vosges,4.3,€€,93,Bistros,Chinese,1,683,48.8557424,2.368231
+PAR-384423,Le Jules Verne,4.3,€€€€,85,French,French,2,684,48.8583600000432,2.29599999988013
+PAR-451215,Auberge Nicolas Flamel,4.3,€€€€,114,French,French,2,685,48.86364,2.35289
+PAR-529930,Pierre Sang,4.4,€€€,170,"French, Korean",French,2,686,48.86461,2.37233
+PAR-337115,Le Bosquet,4.0,€€,210,"Bars, Brasseries",Chinese,1,687,48.8560807716799,2.30452508354831
+PAR-406843,Santa Carne,4.3,€€€,72,"Argentine, Steakhouses, Barbeque",Chinese,1,688,48.854727,2.369435
+PAR-562902,Le Bistro Marbeuf,4.0,€€€,179,"French, Lyonnais",French,2,689,48.86852,2.3035
+PAR-546850,Le Basilic,4.2,€€,181,French,French,2,690,48.886,2.33428
+PAR-316674,Le Relais de l’Entrecôte,4.0,€€€,609,Steakhouses,Chinese,1,691,48.86808,2.30295
+PAR-996687,Bistrot Richelieu,4.2,€€€,234,"French, Breakfast & Brunch",French,2,692,48.866218,2.337011
+PAR-471742,Poulette,4.3,€€€,73,French,French,2,693,48.8634,2.35068
+PAR-268848,Pizzeria Popolare,4.2,€€,142,"Pizza, Napoletana",Chinese,1,694,48.8680722322197,2.34312847113928
+PAR-787465,Au Bon Accueil,4.5,€€€,92,French,French,2,695,48.8596099,2.2993434
+PAR-679469,Les Petites Bouchées,4.5,€€,76,"Tapas Bars, Gastropubs",Chinese,1,696,48.855682,2.360767
+PAR-403250,Pavillon Ledoyen,4.2,€€€€,79,French,French,2,697,48.8661071818398,2.31645151287496
+PAR-656169,Holybelly,4.7,€€,318,"Breakfast & Brunch, Coffee & Tea",Chinese,1,698,48.871022,2.359819
+PAR-40198,Ze Kitchen Galerie,4.2,€€€€,214,"French, Pan Asian",French,2,699,48.85502,2.3412099
+PAR-514398,Au Pied de Cochon,3.3,€€€,422,"Seafood, Brasseries",Chinese,1,700,48.863719,2.343711
+PAR-157459,Ladurée,4.0,€€,1654,"Macarons, Tea Rooms",Chinese,1,701,48.870838,2.303188
+PAR-989725,Galette Café,4.6,€€,114,Creperies,Chinese,1,702,48.85643,2.33153
+PAR-924048,Baroche,4.2,€€,234,Brasseries,Chinese,1,703,48.871315,2.307362
+PAR-167186,Holybelly 19,4.4,€€,311,"Breakfast & Brunch, Cafes, Desserts",Chinese,1,704,48.87213,2.36078
+PAR-234465,Tour d'Argent,3.9,€€€€,163,French,French,2,705,48.8499101,2.3551019
+PAR-26336,Le Potager du Père Thierry,4.6,€€,499,French,French,2,706,48.884476,2.341335
+PAR-197481,Pirouette,4.1,€€€,83,French,French,2,707,48.8629559992863,2.34797019441669
+PAR-714049,Claus - La Table du Petit-Déjeuner,4.2,€€€,258,"Breakfast & Brunch, Cafes",Chinese,1,708,48.86246,2.34053
+PAR-814440,Restaurant de la Tour,4.8,€€€,68,French,French,2,709,48.85439,2.29505
+PAR-937268,Bistrotters,4.6,€€€,80,"French, Modern European",French,2,710,48.83304,2.31498
+PAR-265564,Le Procope,3.5,€€€,390,"French, Seafood",French,2,711,48.853039868867,2.33873112110052
+PAR-777828,La Boîte aux Lettres,4.8,€€€,60,French,French,2,712,48.8868300540186,2.3381794989109
+PAR-778278,Les Fils à Maman,4.0,€€,251,French,French,2,713,48.873498,2.343626
+PAR-693573,L'Ardoise,4.1,€€€,207,French,French,2,714,48.86617,2.32709
+PAR-189895,Restaurant le Meurice Alain Ducasse,4.2,€€€€,96,French,French,2,715,48.86516,2.32807
+PAR-827386,L'Alsacien,4.7,€€,69,"Beer Bar, Wine Bars, Alsatian",Chinese,1,716,48.8582259709568,2.35042658065285
+PAR-601573,La Maison de la Truffe,4.3,€€€€,110,French,French,2,717,48.87074,2.3239899
+PAR-810118,L'Aller Retour,4.3,€€€,87,"Wine Bars, Steakhouses",Chinese,1,718,48.865353,2.363151
+PAR-698899,Neige d'Eté,4.9,€€€€,34,French,French,2,719,48.8453598,2.2990401
+PAR-159010,Shiso Burger,4.5,€€,99,"Burgers, Asian Fusion, American",Chinese,1,720,48.85339,2.3453
+PAR-898344,Le Poincaré,3.9,€€€,175,"French, Brasseries, Wine Bars",French,2,721,48.8650573,2.2865211
+PAR-695656,Canard et Champagne,4.4,€€€,39,"French, Champagne Bars",French,2,722,48.87125,2.34171
+PAR-829811,Candelaria,3.8,€€,359,"Mexican, Speakeasies",Mexican,5,723,48.862981,2.364033
+PAR-566777,La Cave Gourmande,4.3,€€€,381,Bistros,Chinese,1,724,48.884499,2.339847
+PAR-269891,Kodawari Ramen,4.3,€€,121,Ramen,Chinese,1,725,48.85467,2.33806
+PAR-536246,Le Louchébem,3.8,€€€,202,Steakhouses,Chinese,1,726,48.861556,2.345424
+PAR-334982,L'îlot,4.4,€€,73,Seafood,Chinese,1,727,48.8647842407227,2.36330199241638
+PAR-47839,Le Café Marly,3.2,€€€,363,French,French,2,728,48.862013,2.335925
+PAR-962595,Les Enfants Perdus,4.1,€€€,146,"French, Cocktail Bars",French,2,729,48.87439,2.36201
+PAR-346880,Le Florimond,4.6,€€€,96,French,French,2,730,48.85529,2.30718
+PAR-74041,Pedzouille,4.7,€€,26,"Bistros, Steakhouses",Chinese,1,731,48.876133,2.348528
+PAR-910119,La Jacobine,4.5,€€€,394,"Tea Rooms, French",French,2,732,48.8532345157095,2.33900494873524
+PAR-45551,BREIZH Café Odéon | La Crêpe Autrement,4.4,€€,96,"Creperies, Cafes",Chinese,1,733,48.851586,2.33885
+PAR-9140,Ô Chateau,4.4,€€,170,"Wine Bars, French",French,2,734,48.86434,2.34405
+PAR-700746,Pottoka,4.6,€€€,74,French,French,2,735,48.85827,2.30254
+PAR-969512,L'Entente,4.5,€€,35,"British, Modern European",Chinese,1,736,48.869145,2.335391
+PAR-836836,Sourire,4.6,€€€,36,"Tapas Bars, French",French,2,737,48.851109,2.347656
+PAR-11600,Jean Imbert au Plaza Athénée,4.2,€€€€,102,French,French,2,580,48.86617094,2.30441719
+PAR-769046,Juste,4.6,€€,36,Seafood,Chinese,1,739,48.874968,2.338507
+PAR-953126,Il Sorrentino,4.2,€€€,88,Italian,Italian,6,740,48.8598,2.30044
+PAR-717697,Le Porte Pot,4.3,€€,138,"Wine Bars, Bistros",Chinese,1,741,48.85134,2.34452
+PAR-971360,Takara,4.5,€€€€,64,Japanese,Japanese,3,742,48.864977,2.335903
+PAR-316493,Waly-Fay,4.1,€€€,99,African,Chinese,1,743,48.854577902096,2.3816630237536
+PAR-690148,La Closerie des Lilas,4.0,€€€,154,"Brasseries, Bars",Chinese,1,744,48.8397,2.33655
+PAR-433719,Frenchie Bar à Vins ,4.6,€€,152,"Wine Bars, Wine Tasting Room",Chinese,1,745,48.8678119,2.3479551
+PAR-634489,Pizzeria Babalou,4.5,€€,183,"Italian, Pizza",Italian,6,746,48.886483,2.344328
+PAR-888381,Restaurant Georgette,4.6,€€€,41,"Brasseries, Modern European, French",French,2,747,48.847323186089,2.32983749359846
+PAR-604438,Carpe Diem Café,4.2,€€,171,"French, Lounges, Cocktail Bars",French,2,748,48.8605269,2.3459065
+PAR-578157,L'Estrapade,4.7,€€€,53,French,French,2,749,48.84479,2.34662
+PAR-723013,Derrière,3.9,€€€,140,Modern European,Chinese,1,750,48.8644791458463,2.35424064437866
+PAR-679319,John Viande,4.4,€€,84,"Burgers, Beer Bar, Cocktail Bars",Chinese,1,751,48.874333,2.354259
+PAR-555727,L'Ivress Sentier,4.6,€€,61,"Wine Bars, Tapas/Small Plates",Chinese,1,752,48.86872,2.34761
+PAR-918398,Fajitas,4.2,€€,169,Mexican,Mexican,5,753,48.8555801,2.3400906
+PAR-30877,Chez France,4.5,€€€,47,French,French,2,754,48.859058,2.30758631534532
+PAR-79809,Loulou,3.9,€€,174,"Gluten-Free, Breakfast & Brunch, Beer Bar",Chinese,1,755,48.851192,2.344806
+PAR-935010,Comme Chai Toi,4.5,€€€,47,"Wine Bars, French",French,2,756,48.85188,2.34917
+PAR-744688,La Dame de Pic,4.3,€€€€,36,French,French,2,758,48.86146,2.34126
+PAR-411827,Le 52,4.5,€€€,68,French,French,2,759,48.87208,2.35405
+PAR-679013,Siseng,4.2,€€,170,"Burgers, Pan Asian",Chinese,1,760,48.87228,2.36506
+PAR-758777,Kong,3.1,€€€€,542,"Asian Fusion, Cocktail Bars",Chinese,1,761,48.85915,2.34307
+PAR-189890,L'Amour Vache,4.7,€€,49,Brasseries,Chinese,1,762,48.869901651373,2.35228415692945
+PAR-777862,Ferdi,4.0,€€€,166,"French, Spanish, Seafood",French,2,763,48.8663,2.3267
+PAR-800220,Le Petit Prince de Paris,3.9,€€€,228,French,French,2,764,48.848422,2.346513
+PAR-577645,Le Ruisseau - Burger Joint,4.7,€€,53,Burgers,Chinese,1,765,48.860994,2.354433
+PAR-891645,Au Bougnat,4.2,€€€,84,French,French,2,766,48.8543,2.35002
+PAR-221192,Chez Paul,3.8,€€€,270,Bistros,Chinese,1,767,48.85278,2.37435
+PAR-804276,Ippudo Louvre,4.1,€€,77,Ramen,Chinese,1,768,48.8645780908918,2.344691
+PAR-385630,JOZI Brunch Panthéon,4.9,€€,44,"Coffee & Tea, Breakfast & Brunch",Chinese,1,769,48.84787,2.34706
+PAR-349258,Langousta,4.9,€€,47,Seafood,Chinese,1,770,48.856266,2.278149
+PAR-217229,L'Epi Dupin,4.1,€€€,119,Bistros,Chinese,1,771,48.84978,2.3254
+PAR-892948,David Toutain,4.4,€€€€,79,Modern European,Chinese,1,772,48.860227,2.309735
+PAR-408630,Au Pied du Sacré Coeur,4.3,€€,176,French,French,2,773,48.890208,2.3356074
+PAR-691683,Pomze,4.3,€€€,100,French,French,2,774,48.87525,2.31618
+PAR-975208,Willi's Wine Bar,4.0,€€€,79,"French, Wine Bars",French,2,775,48.8663685,2.3383695
+PAR-812936,Le Restaurant,4.5,€€€€,37,"French, Breakfast & Brunch",French,2,776,48.85635,2.33524
+PAR-686455,Little Red Door,4.4,€€,274,Cocktail Bars,Chinese,1,777,48.86378,2.3636
+PAR-325417,L'Orient d'Or Restaurant Chinois Paris,4.2,€€,60,Chinese,Chinese,1,779,48.873939377235,2.345441
+PAR-22096,Kozy Bosquet,4.3,€€,342,"Coffee & Tea, Breakfast & Brunch, Sandwiches",Chinese,1,780,48.85542,2.30539
+PAR-880441,Loup,3.9,€€€,66,"French, Breakfast & Brunch",French,2,781,48.863959,2.342631
+PAR-142803,Le Coq & Fils - The Poultry House,4.3,€€€€,122,Rotisserie Chicken,Chinese,1,782,48.887261205041,2.3370014478986
+PAR-959375,MELT OBERKAMPF,4.5,€€€,43,"Steakhouses, Barbeque, American",Chinese,1,783,48.865612,2.370802
+PAR-15361,Restaurant du Palais Royal,4.8,€€€€,17,French,French,2,784,48.865580245548,2.33890172838062
+PAR-78914,Apicius,4.4,€€€€,87,French,French,2,785,48.873629,2.307616
+PAR-890801,The Lizard Lounge,3.9,€€,158,"Pubs, Burgers, Cocktail Bars",Chinese,1,786,48.8574,2.35627
+PAR-565633,Aki,4.0,€€,271,Japanese,Japanese,3,787,48.86604,2.3353
+PAR-40440,Berthillon,4.4,€€,801,"Ice Cream & Frozen Yogurt, Tea Rooms",Chinese,1,788,48.851702,2.356713
+PAR-891570,Cloud Cakes,4.5,€,91,"Patisserie/Cake Shop, Coffee & Tea, Vegan",Chinese,1,789,48.86592,2.346318
+PAR-732877,Le Christine,4.0,€€€,98,French,French,2,791,48.854343,2.340276
+PAR-936798,Le Tournebièvre,4.7,€€€,42,French,French,2,792,48.85121,2.35085
+PAR-988816,Le Louvre Ripaille,3.9,€€€,31,"French, Wine Bars",French,2,793,48.860305752870495,2.3412439109556535
+PAR-454916,Yam'Tcha,4.3,€€€€,21,"French, Tea Rooms, Pan Asian",French,2,794,48.8615240712704,2.34190206974745
+PAR-185295,Le P'tit Troquet,4.6,€€€,62,French,French,2,795,48.85705,2.30335
+PAR-54620,Inaro,4.4,€€,88,"Wine Bars, Tapas/Small Plates, Breakfast & Brunch",Chinese,1,796,48.868423,2.361196
+PAR-255103,D'Chez Eux,4.4,€€€€,51,French,French,2,797,48.85309,2.3091
+PAR-613060,Auguste,4.5,€€€€,70,French,French,2,798,48.85628,2.317
+PAR-387790,Clown Bar,3.8,€€€,81,"French, Modern European",French,2,799,48.8636,2.36714
+PAR-184574,Mokonuts,5.0,€€€,37,"Cafes, Bakeries",Chinese,1,800,48.8507634203731,2.38146599382162
+PAR-859077,Pasco,4.1,€€€,77,"French, Mediterranean, Cocktail Bars",French,2,801,48.85609,2.30959
+PAR-601402,Bistro des Augustins,4.4,€€,533,"Bistros, Wine Bars",Chinese,1,802,48.854754,2.342119
+PAR-316901,L'Ilot Vache,4.2,€€€,74,French,French,2,803,48.85181,2.35655
+PAR-565265,Le 114 Faubourg,4.6,€€€€,37,French,French,2,804,48.871785,2.314472
+PAR-700836,La Corte,4.4,€€€,46,Italian,Italian,6,805,48.86534,2.33106
+PAR-248790,Matamata Coffee Bar,4.7,€€,97,"Coffee & Tea, Breakfast & Brunch, Sandwiches",Chinese,1,806,48.86611,2.34411
+PAR-970187,Le Chalet Savoyard,4.1,€€€,123,Fondue,Chinese,1,807,48.85331,2.37848
+PAR-63395,L'Anvers du Decor,4.1,€€€,71,French,French,2,808,48.88374,2.34316
+PAR-248317,Shakespeare and Company,4.5,€€,363,"Bookstores, Cafes",Chinese,1,809,48.852658704771,2.3469621526521
+PAR-349658,Café Louise,4.2,€€,76,"Tea Rooms, Brasseries",Chinese,1,810,48.86267,2.33941
+PAR-572571,Azteca,3.4,€€€,55,"Mexican, Latin American, Venues & Event Spaces",Mexican,5,811,48.86191642,2.34247828
+PAR-252733,Kunitoraya - Bistro Udon,4.1,€€,175,"Japanese, Soup",Japanese,3,812,48.86598,2.3366699
+PAR-92284,Le Relais Gascon,3.9,€€,188,French Southwest,Chinese,1,813,48.88403,2.3391
+PAR-429302,Les Fabricants,4.0,€€,88,"Basque, French Southwest",Chinese,1,814,48.867163,2.374997
+PAR-775083,Le Jeroboam,4.7,€€€,56,French,French,2,815,48.82906,2.31693
+PAR-531284,Redd,4.9,€€€,16,"Wine Bars, Tapas Bars",Chinese,1,816,48.8662544519684,2.34768457710743
+PAR-921673,Les Canailles,4.6,€€€,39,French,French,2,817,48.8792768,2.3345899
+PAR-364065,Café de Flore,3.4,€€€,544,Cafes,Chinese,1,818,48.854161,2.332603
+PAR-278266,L'Alivi,3.9,€€,135,"French, Corsican",French,2,819,48.85648,2.357409
+PAR-345482,Louie Louie,4.3,€€,49,"Pizza, Cocktail Bars",Chinese,1,820,48.8534999,2.3803
+PAR-78604,Benoit,3.6,€€€€,165,"French, Brasseries",French,2,821,48.85851,2.34999
+PAR-714005,Les Tantes Jeanne,4.5,€€€,33,"French, Steakhouses",French,2,823,48.8853172,2.334844
+PAR-834461,Bistrot de l'Oulette,4.2,€€,47,French,French,2,824,48.85555,2.36729
+PAR-291264,A. Lacroix,4.8,€€,112,"Coffee & Tea, Patisserie/Cake Shop, Ice Cream & Frozen Yogurt",Chinese,1,825,48.851727,2.349427
+PAR-649299,Evi Evane,4.3,€€,53,"French, Greek",French,2,826,48.8519,2.33428
+PAR-119513,La Fresque,3.9,€€,87,French,French,2,827,48.862537,2.348045
+PAR-19921,Jantchi,3.9,€€,151,Korean,Korean,7,828,48.8660081547723,2.33600543883608
+PAR-759379,142 Crêperie Contemporaine,4.4,€€,138,Creperies,Chinese,1,829,48.848798,2.28751
+PAR-817207,Sola,4.3,€€€€,61,Asian Fusion,Chinese,1,830,48.85156,2.3483299
+PAR-571444,La Régalade Conservatoire,4.4,€€€,30,"Brasseries, French",French,2,831,48.8732306,2.3468674
+PAR-801225,Lazare,3.8,€€€,80,"French, Brasseries",French,2,832,48.876683,2.325271
+PAR-827961,La Maison Rose,3.8,€€€,71,French,French,2,833,48.887969665002,2.33965104092
+PAR-648938,Bien Bien,4.5,€€,80,Thai,Chinese,1,834,48.87259,2.34422
+PAR-933039,CopperBay,4.5,€€,60,"Cocktail Bars, Tapas/Small Plates",Chinese,1,835,48.8698502,2.35711
+PAR-693874,Balagan,4.5,€€,71,"Middle Eastern, Cocktail Bars",Chinese,1,836,48.86543,2.32979
+PAR-428280,Bisou.,4.8,€€,44,Cocktail Bars,Chinese,1,837,48.864068,2.365836
+PAR-397995,Frog Revolution,3.9,€€,65,"American, Barbeque, Burgers",Chinese,1,838,48.8538799,2.3682599
+PAR-501270,Le Mary Céleste,4.1,€€,157,"Tapas/Small Plates, Cocktail Bars",Chinese,1,839,48.8617491625597,2.36506368136342
+PAR-941949,My Noodles,4.7,€€,60,Chinese,Chinese,1,841,48.8415,2.3317199
+PAR-611568,Bistrot Vivienne,3.9,€€€,74,Bistros,Chinese,1,580,48.86621,2.33947
+PAR-573625,Le Pantruche,4.4,€€€,84,French,French,2,844,48.88046,2.3402
+PAR-755472,Pierre Sang on Gambey,4.7,€€€,59,"Modern European, French",French,2,845,48.8649902,2.3721399
+PAR-903395,L'Epigramme,4.3,€€€,35,French,French,2,846,48.852558,2.340719
+PAR-707578,Au Bourguignon du Marais,4.3,€€€,136,French,French,2,847,48.8555191281373,2.3577103595245
+PAR-76894,Flottes,3.6,€€€,203,Brasseries,Japanese,3,848,48.86602,2.32504
+PAR-634033,Pompei,4.3,€€,76,"Italian, Pizza",Italian,6,849,48.872433,2.324167
+PAR-260940,La Maison,4.0,€€€,102,"Bistros, Brasseries",Japanese,3,850,48.87805,2.2883
+PAR-203449,Buvette,4.1,€€,139,"French, Wine Bars",French,2,852,48.8804470273044,2.33758428078072
+PAR-355977,Le Distrait,4.8,€€,13,"Tapas/Small Plates, Cocktail Bars",Japanese,3,853,48.86989,2.34919
+PAR-440833,Le Petit Pontoise,4.4,€€€,164,Bistros,Korean,7,854,48.8498845,2.3520959
+PAR-533446,Les Cocottes,4.2,€€€,576,Bistros,Korean,7,855,48.85819,2.30183
+PAR-326990,Casa Cosa,4.3,€€,51,"Pizza, Italian",Italian,6,856,48.8756646984336,2.33133684843779
+PAR-373132,Chez Imogène,4.4,€€,108,Creperies,Korean,7,857,48.86545,2.36856
+PAR-12089,Tesoro d'Italia,4.5,€€,63,Italian,Italian,6,858,48.8716531601097,2.34572584340404
+PAR-91697,Dong Phat,4.4,€€,104,Vietnamese,Vietnamese,8,859,48.86052,2.3057
+PAR-438759,Blend,3.8,€€,254,"Burgers, Breakfast & Brunch, American",French,2,860,48.86586,2.3436
+PAR-717124,Boulettes,4.5,€€,54,French,French,2,861,48.86557,2.35045
+PAR-970757,Capucine Café,3.8,€€€,70,Brasseries,Spanish,4,862,48.869916,2.329266
+PAR-153464,The Hardware Société,4.6,€€,224,"Coffee & Tea, Breakfast & Brunch, Australian",Mexican,5,863,48.88688,2.3445299
+PAR-230003,Lasserre,4.4,€€€€,61,French,French,2,864,48.86612,2.31006
+PAR-794997,La Table d'Eugène,4.2,€€€€,70,French,French,2,865,48.89111,2.34693
+PAR-880601,Le Dôme du Marais,3.8,€€€,156,"French, Modern European",French,2,866,48.85904,2.35831
+PAR-685853,Blé Sucré,4.6,€,341,Bakeries,Mexican,5,867,48.850565,2.376759
+PAR-311222,Costa d'Amalfi,4.5,€€,17,Italian,Italian,6,868,48.859208,2.323421
+PAR-224071,Sherry Butt,4.4,€€€,98,"Cocktail Bars, French",French,2,869,48.85328,2.36409
+PAR-252500,Le Petit Marché,4.3,€€€,118,French,French,2,870,48.857267,2.366041
+PAR-457068,Comptoir Gourmet,4.5,€€,50,"Italian, French",Italian,6,871,48.86009,2.35457
+LON-960958,Dishoom,4.5,£££,2838,Indian,Chinese,1,872,51.512447030091,-0.1269579217873
+LON-346729,Sketch,4.0,££££,1103,"French, Modern European, Cocktail Bars",French,2,873,51.5127614699071,-0.14159163911048
+LON-303013,Yauatcha,4.0,£££,546,"Dim Sum, Seafood, Noodles",Chinese,1,875,51.5137076071076,-0.135128831605189
+LON-134230,The Mayfair Chippy,4.5,££,605,Fish & Chips,Chinese,1,876,51.5131345,-0.1533961
+LON-514788,Dinner by Heston Blumenthal,4.4,££££,322,British,Chinese,1,877,51.502163,-0.159966
+LON-264461,Kiln,4.3,££,88,"Noodles, Thai",Chinese,1,878,51.5114108,-0.1360504
+LON-271325,Petrus,4.5,££££,143,French,French,2,879,51.4993674,-0.1565204
+LON-600480,Hawksmoor,4.4,£££,206,"Seafood, Steakhouses",Chinese,1,880,51.5097072807539,-0.136161326657445
+LON-182607,Bob Bob Ricard,4.0,££££,212,"British, Russian, Bars",Chinese,1,881,51.5123099662701,-0.137234320867947
+LON-384283,Flat Iron,4.4,££,520,Steakhouses,Chinese,1,882,51.51212,-0.1384008
+LON-130369,The Palomar Restaurant,4.7,£££,143,"Middle Eastern, Mediterranean",Chinese,1,883,51.5111632,-0.1327159
+LON-376032,Blacklock,4.6,£££,164,"British, Cocktail Bars, Steakhouses",Chinese,1,884,51.511687,-0.134762
+LON-899344,The Wolseley,4.0,£££,694,"Cafes, British, Tea Rooms",Chinese,1,885,51.507617,-0.141012
+LON-345390,Restaurant Gordon Ramsay,4.3,££££,258,"French, British",French,2,886,51.485833,-0.161966
+LON-913418,The Ledbury,4.6,££££,185,Modern European,Chinese,1,887,51.516819,-0.200107
+LON-401694,Mother Mash,4.3,££,596,British,Chinese,1,888,51.512935,-0.139414
+LON-509023,Ffiona's Restaurant,4.7,£££,335,British,Chinese,1,889,51.50405773515,-0.192783395566043
+LON-729569,Hawksmoor Seven Dials,4.4,£££,431,"British, Steakhouses, Cocktail Bars",Chinese,1,890,51.5134998914001,-0.12567396291297
+LON-668113,The Harwood Arms,4.5,££££,155,"Gastropubs, British",Chinese,1,891,51.4829113087309,-0.196470990454087
+LON-225882,Hoppers,4.3,££,146,"Sri Lankan, Asian Fusion",Chinese,1,892,51.5135765075684,-0.131750002503395
+LON-219491,NOPI,4.2,£££,304,Mediterranean,Chinese,1,893,51.511617,-0.1385226
+LON-167997,Berners Tavern,4.3,£££,143,"British, Pubs",Chinese,1,894,51.5167515074354,-0.135977268218994
+LON-977334,Brasserie Zédel,3.9,£££,221,"Brasseries, Jazz & Blues, Cocktail Bars",Chinese,1,895,51.5106025898049,-0.135575861793962
+LON-507452,The Fat Bear,4.5,££,127,"American, Soul Food, Cajun/Creole",Chinese,1,898,51.5131833881734,-0.10138103121642
+LON-262205,Gymkhana,4.3,£££,240,"Indian, Cocktail Bars",Chinese,1,899,51.50842,-0.1416607
+LON-913131,Mildreds,4.1,££,346,"Vegan, Salad, Burgers",Chinese,1,901,51.5130233764648,-0.136484995484352
+LON-861566,The Ivy,4.0,£££,236,"British, Modern European",Chinese,1,902,51.512814,-0.128013
+LON-748600,The Duck and Rice,4.0,£££,77,"Chinese, Bars",Chinese,1,903,51.513487,-0.135082
+LON-17724,San Carlo Cicchetti,4.1,£££,183,Italian,Italian,6,904,51.5095021385658,-0.135087305946757
+LON-921325,Veeraswamy,4.2,££££,242,Indian,Chinese,1,905,51.509971,-0.137964
+LON-397785,Jinjuu,4.1,£££,113,Korean,Korean,7,906,51.5123954723956,-0.138893650736518
+LON-736135,Randall & Aubin,4.2,£££,91,"Seafood, British, Fish & Chips",Chinese,1,908,51.5123858,-0.1341749
+LON-718621,Padella,4.5,££,311,Italian,Italian,6,910,51.5051451,-0.0899515
+LON-672895,Rules,4.0,£££,266,"British, Bars",Chinese,1,911,51.5108207,-0.1232501
+LON-305042,Andrew Edmunds,4.3,£££,78,"Wine Bars, British",Chinese,1,912,51.513155,-0.13614583403546
+LON-477155,Bocca Di Lupo,4.2,£££,203,Italian,Italian,6,913,51.5116836912991,-0.133953506589517
+LON-262593,Duck & Waffle,4.0,£££,978,"Modern European, Bars, British",Chinese,1,914,51.516178,-0.08094
+LON-193894,The Grazing Goat Marylebone,4.2,££,308,"Gastropubs, British",Chinese,1,915,51.515378341447,-0.15823586449841
+LON-200970,Bill's,4.0,££,248,"Modern European, British",Chinese,1,919,51.511881,-0.135307
+LON-348009,"OXO Tower Restaurant, Bar And Brasserie",4.0,£££,251,"British, Cocktail Bars",Chinese,1,920,51.5083860657884,-0.108466279762297
+LON-249631,The Barbary,4.8,£££,116,"Middle Eastern, Mediterranean",Chinese,1,921,51.5144480132327,-0.126241173962971
+LON-584664,Hakkasan,4.1,££££,246,Cantonese,Chinese,1,922,51.5171482803943,-0.13180578932657
+LON-208007,Cahoots Bar,4.5,££,138,Bars,Chinese,1,923,51.512542,-0.1391
+LON-684313,St John Bar and Restaurant,4.2,£££,340,"British, Bars",Chinese,1,925,51.520481,-0.101486
+LON-416071,Savoir Faire,4.3,££,227,French,French,2,926,51.5171949,-0.1260125
+LON-915579,Wahaca,4.0,££,331,Mexican,Mexican,5,927,51.51333452102,-0.13376991245546
+LON-111712,BAO - Soho,4.1,££,214,Taiwanese,Chinese,1,928,51.5132221949841,-0.136528484994449
+LON-7927,Fortnum and Mason: Diamond Jubilee Tea Salon,4.1,££££,367,"Desserts, British, Tea Rooms",Chinese,1,929,51.5087069889729,-0.138279327972609
+LON-913842,The Clove Club,4.4,££££,118,"British, Cocktail Bars",Chinese,1,930,51.5270489,-0.0791196
+LON-233692,Balthazar,3.9,£££,227,"French, Breakfast & Brunch, Bistros",French,2,932,51.5123176574707,-0.121569000184536
+LON-772905,Punjab Restaurant,4.2,££,644,"Indian, Vegetarian",Chinese,1,933,51.514992,-0.12596
+LON-74878,Hakkasan Mayfair,3.9,££££,168,Chinese,Chinese,1,934,51.5103202323384,-0.144935268434918
+LON-308934,Trishna,4.3,£££,147,Indian,Chinese,1,936,51.518294,-0.153047
+LON-509187,Roti Chai,4.1,££,333,"Indian, Kebab",Chinese,1,937,51.5146226,-0.1557135
+LON-359798,Da Mario Restaurant,4.3,££,214,Italian,Italian,6,938,51.4987228161749,-0.183567237647306
+LON-22435,Bodean's,3.9,££,268,"American, Barbeque, Burgers",Chinese,1,939,51.514481362499,-0.13676105637839
+LON-911156,Kanada-Ya,4.3,££,199,Ramen,Chinese,1,940,51.51555,-0.127588
+LON-694348,La Porchetta Pollo Bar,4.3,£,93,Italian,Italian,6,941,51.5136346213443,-0.130298037090699
+LON-840110,Duck & Waffle Local,4.4,££,153,"Bars, Waffles",Chinese,1,942,51.5094175706263,-0.132749820495633
+LON-865322,Pollen Street Social,4.2,££££,96,British,Chinese,1,943,51.5134486407661,-0.142294155464837
+LON-981521,Bizzarro,4.1,££,225,Italian,Italian,6,944,51.514853,-0.1772311
+LON-523453,Pizza Pilgrims,4.1,££,134,Pizza,Chinese,1,945,51.5149474,-0.13324
+LON-705034,Beast,4.5,££££,41,"Seafood, Steakhouses",Chinese,1,947,51.5152854919434,-0.146885111927986
+LON-367935,Hawksmoor Spitalfields,4.4,£££,194,"Steakhouses, British",Chinese,1,948,51.5211502,-0.075657
+LON-164683,Gaucho,4.0,£££,163,"Argentine, Steakhouses",Chinese,1,949,51.50968,-0.1379546
+LON-591673,Joy King Lau,3.8,££,168,Dim Sum,Chinese,1,950,51.511104,-0.13113
+LON-448273,Chutney Mary,4.3,£££,115,Indian,Chinese,1,951,51.505661,-0.138903
+LON-349441,Golden Union Fish Bar,4.2,££,342,Fish & Chips,Chinese,1,952,51.5153383,-0.1376925
+LON-568530,The Alchemist,4.4,££,82,"Bars, Venues & Event Spaces, American",Chinese,1,953,51.5112707779066,-0.126947910714945
+LON-460807,Bone Daddies,3.8,££,362,Japanese,Japanese,3,954,51.512829,-0.133884
+LON-840697,Nobu Berkeley St,3.9,££££,138,"Japanese, Sushi Bars",Japanese,3,956,51.5084914741339,-0.143449097152784
+LON-318200,Quilon Restaurant,4.4,£££,179,Indian,Chinese,1,957,51.4987197,-0.1374994
+LON-102162,Homeslice Neal's Yard,4.4,££,283,Pizza,Chinese,1,958,51.5144380966574,-0.126426543278564
+LON-588575,The Cinnamon Club,4.0,££££,218,Indian,Chinese,1,959,51.497381,-0.129634
+LON-619971,Roka,4.0,£££,156,"Japanese, Seafood",Japanese,3,960,51.5189741386939,-0.135395835697745
+LON-647663,Kitchen Table,4.8,££££,42,"American, Modern European",Chinese,1,961,51.520415,-0.136485
+LON-197196,The Churchill Arms,4.0,££,443,"Pubs, Thai",Chinese,1,962,51.5068261,-0.194781
+LON-815142,Barrafina,4.6,££,86,"Spanish, Tapas Bars",Spanish,4,963,51.5143394,-0.1219044
+LON-626463,Regency Café,4.5,£,515,Cafes,Chinese,1,964,51.4940143171,-0.13222007974201
+LON-771864,The Shed,4.4,££,102,British,Chinese,1,965,51.5089417,-0.1937266
+LON-573404,Savoy Grill,3.8,££££,173,"French, British",French,2,966,51.5102197687511,-0.120730476398416
+LON-404345,Marcus,4.3,££££,64,"Modern European, British",Chinese,1,967,51.5016612,-0.1556969
+LON-438139,Hotel Café Royal,4.4,£££,80,"Hotels, Cafes, Bars",Chinese,1,968,51.510171,-0.135962
+LON-432984,The Colonel Fawcett,4.7,££,38,Gastropubs,Chinese,1,969,51.5418041646628,-0.136007736926076
+LON-721589,Nobu,3.9,££££,192,"Japanese, Sushi Bars",Japanese,3,970,51.5050546,-0.1500369
+LON-221897,The Swan,3.9,££,163,"Pubs, British",Chinese,1,971,51.511656071976,-0.17697194507093
+LON-589107,Shackfuyu,3.9,££,57,Japanese,Japanese,3,972,51.5137786865234,-0.130199000239372
+LON-607573,North Sea Fish Restaurant,4.1,££,195,"Seafood, Fish & Chips",Chinese,1,973,51.526474,-0.125051
+LON-944225,Italian Bear Chocolate,4.2,££,97,"Chocolatiers & Shops, Cafes",Chinese,1,974,51.5132248,-0.136738
+LON-801923,Honey & Co.,4.2,££,125,Middle Eastern,Chinese,1,975,51.5219695,-0.1182648
+LON-955198,Wright Brothers,4.1,£££,105,Seafood,Chinese,1,976,51.5056293987386,-0.0915365713523675
+LON-910121,Princi,3.9,££,326,"Italian, Bakeries, Coffee & Tea",Italian,6,978,51.5138629586873,-0.134387051472991
+LON-113398,The Ninth London,4.3,£££,35,"Mediterranean, French",French,2,981,51.518833,-0.134849
+LON-382409,The Breakfast Club,3.9,££,606,"Coffee & Tea, Breakfast & Brunch, American",Chinese,1,982,51.514733,-0.135406
+LON-564932,Mango Indian,4.4,££,164,Indian,Chinese,1,983,51.504962,-0.092963
+LON-679250,Tamarind,4.1,£££,151,Indian,Chinese,1,984,51.5070768887132,-0.147140606231687
+LON-710614,Cecconi's Mayfair,4.1,£££,111,Italian,Italian,6,985,51.51004817,-0.14055809
+LON-358757,The Windmill,4.2,££,113,"Pubs, British",Chinese,1,986,51.512565,-0.142204
+LON-706845,Sticks'n'Sushi Covent Garden,4.1,£££,185,"Japanese, Sushi Bars",Japanese,3,988,51.5110542,-0.1236238
+LON-426299,Alain Ducasse at The Dorchester,3.9,££££,102,French,French,2,989,51.5075671902288,-0.152435302734375
+LON-116563,Texture,4.4,£££,55,"Champagne Bars, Modern European, Gastropubs",Chinese,1,990,51.514873602131,-0.156574989917278
+LON-24129,Señor Ceviche,4.2,££,53,"Cocktail Bars, Peruvian, Barbeque",Chinese,1,991,51.51241,-0.13858
+LON-960433,Kazan,4.4,££,142,Turkish,Chinese,1,992,51.4927,-0.14072
+LON-12514,Bibimbap ,3.9,£,201,Korean,Korean,7,993,51.5144277061983,-0.130957402446711
+LON-573372,Chotto Matte,3.7,£££,111,"Japanese, Peruvian",Japanese,3,994,51.5137171,-0.1314659
+LON-925419,La Petite Maison,4.3,££££,54,French,French,2,995,51.512638,-0.146243
+LON-964523,Laughing Halibut,4.2,££,301,Fish & Chips,Chinese,1,996,51.4966544699782,-0.133777235475182
+LON-80393,CASK Pub and Kitchen,4.3,££,157,"Pubs, Gastropubs",Chinese,1,997,51.49135039773,-0.13753688795203
+LON-221425,Andy's Greek Taverna,4.7,£,43,Greek,Chinese,1,998,51.5377635,-0.1398633
+LON-940327,Tapas Brindisa,4.0,£££,66,"Spanish, Tapas Bars, Basque",Spanish,4,999,51.513468865838,-0.13664590618241
+LON-163356,The Table,4.2,££,314,"British, Breakfast & Brunch, Bars",Chinese,1,1000,51.505604,-0.099671
+LON-901866,Ping Pong Soho,3.6,££,147,Dim Sum,Chinese,1,1001,51.5144372406878,-0.13853844255209
+LON-311741,Honest Burgers Meard St - Soho,4.4,££,312,Burgers,Chinese,1,1002,51.5134184063764,-0.132883885733008
+LON-657051,Locale,4.0,££,108,Italian,Italian,6,1003,51.501479,-0.118008
+LON-816222,Japes,4.5,££,22,"Pizza, Cocktail Bars",Chinese,1,1004,51.514277,-0.1326631
+LON-482183,Le Sacre Coeur,4.4,££,53,French,French,2,1006,51.5376815795898,-0.10402800142765
+LON-22130,Gordon Ramsay Bar & Grill,3.6,££££,290,"British, Steakhouses",Chinese,1,1007,51.512403,-0.151296
+LON-197081,Bar Boulud,4.1,£££,113,French,French,2,877,51.502029603588,-0.1602532520838
+LON-800713,Dehesa,4.0,£££,71,"Spanish, Basque",Spanish,4,1008,51.512781,-0.139333
+LON-126840,temper Soho,3.6,£££,41,"Latin American, Barbeque",Chinese,1,1009,51.51327,-0.135566
+LON-716211,L'Eto Caffe,4.0,££,168,"Cafes, Breakfast & Brunch",Chinese,1,1010,51.514301,-0.134786
+LON-83519,Donostia,4.6,£££,47,Tapas/Small Plates,Chinese,1,1011,51.514732,-0.160959
+LON-496748,Ma La,4.3,££,58,Dim Sum,Chinese,1,1012,51.4967482348975,-0.130618096863811
+LON-872517,Emilia's Crafted Pasta,4.4,££,82,"Italian, Pasta Shops",Italian,6,1013,51.5072531,-0.0716082
+LON-589119,Masala Zone Soho,3.9,££,234,"Indian, Vegetarian, Halal",Chinese,1,1014,51.513424266119,-0.137674604592006
+LON-208779,Vasco & Piero's Pavilion Restaurant,4.5,£££,51,Italian,Italian,6,1015,51.514775,-0.136932
+LON-655265,Yoobi,3.9,££,60,"Sushi Bars, Asian Fusion",Chinese,1,1016,51.5128974914551,-0.136000007390976
+LON-653647,Frenchie Covent Garden,4.3,£££,44,French,French,2,1017,51.510757,-0.124054
+LON-985120,Bentley's Oyster Bar & Grill,3.9,£££,101,Seafood,Chinese,1,1018,51.5095274197208,-0.137853830688528
+LON-45877,Maroush II,4.3,££,120,Middle Eastern,Chinese,1,1019,51.49724,-0.164357
+LON-124165,Dumplings' Legend,3.2,££,192,Dim Sum,Chinese,1,1020,51.51178,-0.13148
+LON-430101,Rasa Sayang,3.8,££,147,"Malaysian, Chinese",Chinese,1,1021,51.511991,-0.13154
+LON-899839,Bon Gusto,4.6,££,148,"Italian, Wine Bars",Italian,6,1022,51.4992042,-0.1378462
+LON-367563,Viet Food,3.7,££,94,Vietnamese,Vietnamese,8,1023,51.511651,-0.132188
+LON-418421,Wild Honey,4.1,£££,90,"Modern European, French",French,2,1024,51.5074559,-0.1321665
+LON-610457,Belgo Centraal,3.8,££,325,Belgian,Chinese,1,1025,51.5137833644188,-0.125649969207333
+LON-855629,Zaika of Kensington,4.5,£££,107,Indian,Chinese,1,1026,51.502166,-0.187171
+LON-304724,Milk & Honey,4.1,£££,79,"Social Clubs, Lounges",Chinese,1,1027,51.513701,-0.136673
+LON-237065,Halepi,4.0,££,119,"Greek, Modern European, Kebab",Chinese,1,1028,51.511329946838,-0.18310297196364
+LON-84583,Connaught Bar,4.6,££££,99,Bars,Chinese,1,1029,51.5101556,-0.1496314
+LON-440530,Daquise,4.2,£££,84,"Polish, Modern European",Chinese,1,1030,51.4943231,-0.1736183
+LON-740648,Dalloway Terrace,4.3,£££,56,"Cocktail Bars, British, Breakfast & Brunch",Chinese,1,1031,51.5172302719223,-0.12909671319926
+LON-186478,Kennington Lane Cafe,4.9,£,133,Cafes,Chinese,1,1033,51.4860611,-0.1208514
+LON-514950,Flesh & Buns,3.8,£££,120,"Japanese, Bars",Japanese,3,1034,51.5138810333143,-0.126240480271074
+LON-482066,Kricket Soho,4.4,££,56,Indian,Chinese,1,1035,51.5108313039847,-0.135196111510276
+LON-840312,Sushi Tetsu,4.8,££££,23,Sushi Bars,Chinese,1,1036,51.5232787973028,-0.103991949209005
+LON-39307,The Rum Kitchen,3.8,££,86,Caribbean,Chinese,1,1037,51.5123393,-0.1387341
+LON-290372,Maggie Jones's,4.4,£££,146,British,Chinese,1,1038,51.502856014927,-0.1909916674772
+LON-725657,Lobos Meat and Tapas,4.5,£££,40,"Tapas/Small Plates, Tapas Bars, Spanish",Spanish,4,1039,51.5056258,-0.0891513
+LON-824398,Blanchette,3.9,£££,34,"Bistros, French",French,2,1041,51.5146869918666,-0.136290080845356
+LON-379863,Archipelago,4.5,££££,33,"Seafood, African, Australian",Chinese,1,1042,51.5205732,-0.1388012
+LON-502309,Ship Tavern,4.3,££,126,Pubs,Chinese,1,1043,51.5172487,-0.119072165950775
+LON-64721,Andina,4.0,££,159,"Breakfast & Brunch, Peruvian",Chinese,1,1044,51.5243208695971,-0.077134990126122
+LON-155527,Tea and Tattle,4.3,££,109,"British, Coffee & Tea",Chinese,1,1045,51.5178680419922,-0.126817002892494
+LON-868490,The Black Penny,4.3,££,81,Cafes,Chinese,1,1046,51.51524,-0.12171
+LON-446823,Mosob Restaurant,4.6,££,50,"African, Ethiopian",Chinese,1,1047,51.523856,-0.20105
+LON-612899,Goodman,4.4,£££,130,"Steakhouses, Burgers, British",Chinese,1,1048,51.5131345,-0.1422486
+LON-830801,The Spice Of Life,4.0,££,58,"Pubs, British",Chinese,1,1049,51.513418975746,-0.12975025103142
+LON-95005,Bbar,4.4,££,89,"African, Cocktail Bars, British",Chinese,1,1051,51.497974,-0.143766
+LON-78442,Home House,4.4,£££,43,"Hotels, Dance Clubs, British",Chinese,1,1052,51.516150244144,-0.15665305008251
+LON-640341,Wiltons Restaurant,4.5,££££,31,Seafood,Chinese,1,1053,51.507722,-0.1390888
+LON-37256,The Blind Pig,4.4,££,70,Cocktail Bars,Chinese,1,1054,51.5138271,-0.1367278
+LON-822787,Sushisamba,3.8,££££,307,"Asian Fusion, Sushi Bars",Chinese,1,914,51.516179,-0.080946
+LON-535048,Albertini Restaurant,4.6,£,73,"Pizza, Italian, Seafood",Italian,6,1055,51.5290298461914,-0.129214003682137
+LON-540826,The Attendant,4.5,£,89,"Coffee & Tea, Cafes",Chinese,1,1056,51.5192470995905,-0.140738025145255
+LON-213077,Shoryu Ramen,3.6,££,110,Ramen,Chinese,1,1057,51.5107546,-0.1343706
+LON-769753,Cotto,4.1,££,143,"Italian, Gluten-Free, Wine Bars",Italian,6,1058,51.4988819,-0.1127175
+LON-169711,Ishbilia Restaurant,4.4,£££,48,Middle Eastern,Chinese,1,1059,51.5016484290909,-0.158281609169788
+LON-935170,My Place Soho,4.7,££,33,Cafes,Chinese,1,1060,51.5138405,-0.1346902
+LON-729101,Patty & Bun,4.3,££,213,Burgers,Chinese,1,1061,51.515786,-0.150785
+LON-54963,Côte,4.0,££,106,"Breakfast & Brunch, French",French,2,1062,51.514231,-0.134374
+LON-469791,Nightjar,4.4,£££,196,"Lounges, Cocktail Bars",Chinese,1,1063,51.5265350341797,-0.0877109989523888
+LON-900216,Lemonia,4.0,££,112,Greek,Chinese,1,1064,51.5416545,-0.1570446
+LON-236547,Casa Tua,4.7,££,58,"Coffee & Tea, Italian, Breakfast & Brunch",Italian,6,1066,51.5276449011142,-0.123588235886524
+LON-578744,Bubblewrap Waffle,4.4,£,81,Waffles,Chinese,1,1067,51.5112605,-0.1318498
+LON-76389,The Pig and Butcher,4.5,££,134,"British, Gastropubs",Japanese,3,1068,51.537442542029,-0.10682789450616
+LON-534003,Busaba Soho,3.8,££,410,Thai,Japanese,3,1069,51.5137892,-0.134057824536853
+LON-213230,Heddon Street Kitchen,3.6,£££,160,"Modern European, Breakfast & Brunch",Japanese,3,1070,51.5107288,-0.1393024
+LON-397531,Poppies,3.9,££,427,"Fish & Chips, Fast Food",Japanese,3,1072,51.5202629,-0.074075
+LON-370926,Zayna,4.2,£££,106,"Indian, Pakistani, Halal",Korean,7,1073,51.514952,-0.158385
+LON-480741,Rocca,4.3,££,136,Italian,Italian,6,1074,51.4928759536943,-0.176558382809162
+LON-540674,The Queen's Arms,4.2,££,164,"Pubs, British",Korean,7,1075,51.4992491095565,-0.180797918037262
+LON-307552,The Grenadier,4.3,££,214,Pubs,Korean,7,1076,51.501462,-0.155004
+LON-104808,Brawn,4.4,£££,52,Modern European,Korean,7,1077,51.5289277153112,-0.0702632793320869
+LON-71131,The Champion- Notting Hill,4.2,££,131,"Pubs, British",Korean,7,1078,51.5100255,-0.1922685
+LON-218947,Fish Bone,4.4,£,95,"Fish & Chips, British, Seafood",Korean,7,1079,51.522088,-0.140496

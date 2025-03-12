@@ -4,7 +4,7 @@ import os
 import time
 from urllib.parse import urlencode
 from config import API_KEY, CITIES, CATEGORIES, RECORDS_PER_CATEGORY
-from scripts.utils import get_location_id, get_category_id
+from scripts.utils import get_location_id, get_category_id  # ✅ 从 utils.py 导入
 
 # Yelp API 相关信息
 BASE_URL = "https://api.yelp.com/v3/businesses/search"
@@ -13,14 +13,13 @@ HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 # 获取数据库路径
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../data/yelp_restaurants.db")
 
-
 def fetch_restaurants(city, category):
     """ 从 Yelp API 获取指定城市 & 类别的餐厅数据 """
     restaurants = []
     offset = 0
     limit = 50  # Yelp API 每次最多返回 50 条数据
 
-    while offset < RECORDS_PER_CATEGORY:
+    while len(restaurants) < RECORDS_PER_CATEGORY:
         params = {
             "location": city,
             "categories": category,
@@ -31,21 +30,46 @@ def fetch_restaurants(city, category):
 
         response = requests.get(url, headers=HEADERS)
         if response.status_code != 200:
-            print(f"⚠️  获取 {city} - {category} 失败，状态码: {response.status_code}")
-            return []  # 直接返回空列表
+            print(f"⚠️ 获取 {city} - {category} 失败，状态码: {response.status_code}")
+            break  # 遇到 API 失败就退出循环
 
         data = response.json()
         businesses = data.get("businesses", [])
-        restaurants.extend(businesses)
 
-        if len(businesses) < limit:
-            break  # 已经获取完所有数据，不需要继续请求下一页
+        if not businesses:
+            print(f"⚠️ {city} - {category} 没有更多商户，但已爬取 {len(restaurants)} 条数据。")
+            break  # 不再请求下一页，但不会丢失已爬取数据
+
+        for biz in businesses:
+            location = biz.get("location", {})
+
+            # ✅ 获取完整类别列表，标准化成 Title Case
+            all_categories = [c["title"].title() for c in biz.get("categories", [])]
+
+            # ✅ primary_category 选择 `CATEGORIES` 里匹配的第一个
+            matched_categories = [c for c in all_categories if c.lower() in [cat.lower() for cat in CATEGORIES]]
+            primary_category = matched_categories[0] if matched_categories else category.title()
+
+            restaurants.append({
+                "name": biz["name"],
+                "rating": biz.get("rating", 0),
+                "price": biz.get("price", "N/A"),
+                "review_count": biz.get("review_count", 0),
+                "categories": ", ".join(all_categories),  # 存所有类别
+                "category": primary_category,  # 主要类别
+                "city": location.get("city", "Unknown"),
+                "state": location.get("state", "Unknown"),
+                "zip_code": location.get("zip_code", "Unknown"),
+                "country": location.get("country", "Unknown"),
+                "address": location.get("address1", ""),
+                "latitude": biz.get("coordinates", {}).get("latitude"),
+                "longitude": biz.get("coordinates", {}).get("longitude"),
+            })
 
         offset += limit
         time.sleep(1)  # 避免 API 速率限制
 
-    return restaurants
-
+    return restaurants  # ✅ 返回已爬取的所有数据，不管是否到达目标数量
 
 def save_to_database(restaurants, city):
     """ 将爬取的餐厅数据存入 SQLite 数据库 """
@@ -53,26 +77,35 @@ def save_to_database(restaurants, city):
     cursor = conn.cursor()
 
     for rest in restaurants:
-        name = rest["name"]
+        name = rest.get("name", "Unknown")
         rating = rest.get("rating", 0)
         price = rest.get("price", "N/A")
-        address = ", ".join(rest["location"].get("display_address", []))
-        latitude = rest["coordinates"].get("latitude")
-        longitude = rest["coordinates"].get("longitude")
+        review_count = rest.get("review_count", 0)
+        address = rest.get("address", "Unknown")
+        latitude = rest.get("latitude", None)
+        longitude = rest.get("longitude", None)
 
-        # 获取或创建 location_id
-        location_id = get_location_id(cursor, city, address, latitude, longitude)
+        # ✅ 确保获取 `country`
+        country = rest.get("country", "Unknown")
 
-        # 获取或创建 category_id
-        category_id = get_category_id(cursor, rest["categories"])
+        # ✅ 处理 categories
+        all_categories = rest.get("categories", "")
+        primary_category = rest.get("category", "")
 
-        # 生成唯一 restaurant_id
-        restaurant_id = f"{city[:3].upper()}{str(hash(name))[:6]}"
+        # ✅ 获取或创建 location_id
+        location_id = get_location_id(cursor, rest["city"], country, address, latitude, longitude)
+
+        # ✅ 获取或创建 category_id
+        category_id = get_category_id(cursor, primary_category)
+
+        # ✅ 生成唯一 restaurant_id
+        restaurant_id = f"{city[:3].upper()}-{abs(hash(name)) % 1000000}"
 
         cursor.execute("""
-        INSERT OR IGNORE INTO restaurants (restaurant_id, name, rating, price, category_id, location_id)
-        VALUES (?, ?, ?, ?, ?, ?)
-        """, (restaurant_id, name, rating, price, category_id, location_id))
+        INSERT OR IGNORE INTO restaurants 
+        (restaurant_id, name, rating, price, review_count, categories, primary_category, category_id, location_id, latitude, longitude)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (restaurant_id, name, rating, price, review_count, all_categories, primary_category, category_id, location_id, latitude, longitude))
 
     conn.commit()
     conn.close()
@@ -85,16 +118,9 @@ def run_scraper():
             print(f"📡 爬取 {city} - {category} 数据中...")
             restaurants = fetch_restaurants(city, category)
 
-            # 如果该类别的餐厅数量不足 150，仍然保存已有的数据
             if len(restaurants) < RECORDS_PER_CATEGORY:
-                print(
-                    f"⚠️ {city} - {category} 的餐厅不足 {RECORDS_PER_CATEGORY} 个（仅找到 {len(restaurants)} 个），保存已有数据并继续。")
-                if restaurants:  # 如果有数据，则保存
-                    save_to_database(restaurants, city)
-                    print(f"✅ {len(restaurants)} 条数据存入数据库")
-                continue  # 继续到下一个类别
+                print(f"⚠️ {city} - {category} 仅找到 {len(restaurants)} 条数据（目标 {RECORDS_PER_CATEGORY}），但仍然保存。")
 
-            # 如果餐厅数量足够，直接保存
             save_to_database(restaurants, city)
             print(f"✅ {len(restaurants)} 条数据存入数据库")
 

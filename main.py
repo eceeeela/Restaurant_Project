@@ -1,33 +1,38 @@
 import os
-import sqlite3
 from scripts.yelp_scraper import run_scraper
+from scripts.data_cleaning import clean_data
 from scripts.database import create_database
-from scripts.data_cleaning import remove_duplicates
 
-# 获取数据库路径
-DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/yelp_restaurants.db")
+# 数据库路径
+DB_PATH = "data/yelp_restaurants.db"
 
-def check_database_exists():
-    """ 检查数据库是否存在 """
-    return os.path.exists(DB_PATH)
+
+def reset_database():
+    """ 删除并重新创建数据库 """
+    if os.path.exists(DB_PATH):
+        os.remove(DB_PATH)
+        print("🗑️ 已删除旧数据库")
+
+    create_database()
+    print("✅ 重新创建数据库成功！")
+
 
 def main():
-    print("🚀 Yelp 餐厅数据爬取程序启动！")
+    """ 统一执行 Yelp 数据爬取和清理 """
+    print("🚀 Yelp 数据爬取 & 清理启动！")
 
-    # 如果数据库不存在，先创建数据库
-    if not check_database_exists():
-        print("🔧 数据库未找到，正在初始化...")
-        create_database()
-        print("✅ 数据库创建完成！")
+    reset_database()
 
-    # 运行 Yelp 爬虫
+    print("📡 开始爬取 Yelp 数据...")
     run_scraper()
+    print("✅ Yelp 数据爬取完成！")
 
-    print("🎉 Yelp 数据爬取完成，数据已存入数据库！")
+    print("🧹 开始清理 Yelp 数据...")
+    clean_data()
+    print("✅ 数据清理完成！")
 
-    # 清洗数据
-    print("😯重复数据清理开始！")
-    remove_duplicates()
+    print("🎉 所有任务完成！")
+
 
 if __name__ == "__main__":
     main()
