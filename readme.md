@@ -39,6 +39,7 @@ The project involves:
   - ⭐ **Average rating per category**.
   - 💰 **Price distribution** (Pie chart).
   - 🗺️ **Map visualization** (Restaurant locations, colored by rating/price).
+![image](https://github.com/eceeeela/Restaurant_Project/blob/main/img/demoPic.png)
   
 - **Dashboard 2**: **Multi-City Comparison**
   - 📌 **Comparing different cities’ price levels**.
